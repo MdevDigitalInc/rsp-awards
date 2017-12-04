@@ -1,0 +1,166 @@
+.home-intro {
+  padding: 100px 0 80px;
+}
+
+.intro-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  .intro-content {
+    width: 60%;
+  }
+  
+  .intro-button {
+    width: 35%;
+  }
+}
+
+.nomination-call {
+  padding: 100px 0 80px;
+  
+  .nomination-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nomination-content {
+    width: 60%;
+  }
+  
+  .nomination-button {
+    width: 35%;
+  }
+}
+
+.recognition {
+  background-image: url('../img/home/ceremony-bkg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 35px 0;
+  color: $white;
+  
+  .mdev-main-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .recognition-content {
+    width: 45%;
+    
+    h1 {
+      color: $white;
+    }
+    
+    p {
+      color: $white;
+    }
+    
+    .link-wrapper {
+      padding-top: $rsp-padding-md;
+    }
+  }
+  
+  .image {
+    width: 55%;
+  }
+}
+
+.recent-news {
+  padding: 100px 0 80px;
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .news-wrapper {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .blog-tile {
+    width: 30%;
+  }
+  
+  .blog-image {
+    height: 400px;
+  }
+  
+  h5 {
+    padding: $rsp-padding-sm 0;
+  }
+  
+  .read-more {
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+}
+
+.about-banner {
+  background-color: $rsp-purple;
+  padding: 100px 0;
+  text-align: center;
+  
+  h2 {
+    width: 70%;
+    margin: 0 auto;
+    color: $rsp-grey;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 60px;
+  }
+}
+
+.sponsors {
+  padding: 100px;
+  
+  h1 {
+    text-align: center;
+    padding-bottom: 80px;
+  }
+  
+  .sponsor-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .sponsor-inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    
+    .tile {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 150px;
+    }
+    
+    .presenting-sponsor {
+      height: 250px;
+    }
+  }
+  
+  .sponsor-cta {
+    width: 30%;
+    padding-left: 20px;
+    
+    p {
+      font-size: 24px;
+      line-height: 34px;
+      color: $rsp-purple;
+    }
+    
+    .button-wrapper {
+      padding-top: $rsp-padding-md;
+    }
+  }
+}

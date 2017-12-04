@@ -1,0 +1,102 @@
+.pullquote {
+  background-image: url('../img/icons/icon-quote.svg');
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+  padding-left: 60px;
+  padding-top: 50px;
+  font-size: 30px;
+  font-style: italic;
+  line-height: 36px;
+  width: 50%;
+  
+  .author {
+    font-style: normal;
+    padding-bottom: 5px;
+  
+    span {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+  
+  .profile-link {
+    padding-top: 0;
+    color: $rsp-blue;
+    font-size: 16px;
+    font-style: normal;
+  }
+}
+
+.recipient-intro {
+  display: flex;
+  flex-direction: row;
+  .intro-content {
+    width: 55%;
+  }
+  .submission {
+    width: 35%;
+    
+    .button-wrapper {
+      padding-top: $rsp-padding-md;
+    }
+  }
+}
+
+.congratulate-banner {
+  padding: 80px 0;
+  background-color: $rsp-purple;
+  text-align: center;
+  
+  p {
+    font-size: 36px;
+    line-height: 60px;
+    font-style: italic;
+  }
+}
+
+.national-recipient {
+  padding: 100px 0 80px;
+  background-color: #ebe8ee;
+  border-top: 1px solid $rsp-grey;
+  border-bottom: 1px solid $rsp-grey;
+  
+  .recipient-wrapper {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  
+  .recipient-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .image {
+    width: 45%;
+  }
+  
+  .pullquote {
+    margin-left: 45px;
+  } 
+}
+
+.recipient {
+  display: flex;
+  padding: 50px 0;
+  flex-directon: row;
+  justify-content: space-between;
+  max-width: 72%;
+  margin: 0 auto;
+  align-items: center;
+  
+  .image {
+    width: 45%;
+  }
+}

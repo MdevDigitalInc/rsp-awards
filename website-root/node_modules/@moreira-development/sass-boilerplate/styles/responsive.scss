@@ -1,0 +1,55 @@
+/*-------------------------------------
+ *	RESPONSIVE BREAKPOINT MANAGER
+/-------------------------------------*/
+
+/* Breakpoint Definitions */
+$phone-range:   (0, 640px);
+$tablet-range:  (641px, 1024px);
+$laptop-range:   (1025px, 1440px);
+$desktop-range:  (1441px, 1920px);
+$xl-range: (1921px);
+
+/* Functions */
+@function lower-bound($range) {
+  @if length($range) <= 0 {
+    @return 0;
+  }
+  @return nth($range, 1);
+}
+
+@function upper-bound($range) {
+  @if length($range) < 2 {
+    @return 999999999999;
+  }
+  @return nth($range, 2);
+}
+
+/* Media Query Definitions */
+
+/* Disabled because I need the quotes for media queries to be valid */
+/* stylelint-disable */
+$screen:              "only screen" !default;
+$landscape:           "#{$screen} and (orientation: landscape)" !default;
+$portrait:            "#{$screen} and (orientation: portrait)" !default;
+$phone-up:            $screen !default;
+$phone-only:          "#{$screen} and (max-width: #{upper-bound($phone-range)})" !default;
+$phone-only-comp:     "max-width: #{upper-bound($phone-range)}" !default;
+$tablet-up:           "#{$screen} and (min-width:#{lower-bound($tablet-range)})" !default;
+$tablet-up-comp:      "min-width:#{lower-bound($tablet-range)}" !default;
+$tablet-prt-up:       "#{$screen} and (min-width:#{lower-bound($tablet-range)}) and (orientation:portrait)" !default;
+$tablet-prt-up-comp:  "min-width:#{lower-bound($tablet-range)} and (orientation:portrait)" !default;
+$tablet-prt-only:     "#{$screen} and (min-width:#{lower-bound($tablet-range)}) and (max-width:#{upper-bound($tablet-range)}) and (orientation:portrait)" !default;
+$tablet-prt-comp:     "min-width:#{lower-bound($tablet-range)}) and (max-width:#{upper-bound($tablet-range)} and (orientation:portrait)" !default;
+$tablet-only:         "#{$screen} and (min-width:#{lower-bound($tablet-range)}) and (max-width:#{upper-bound($tablet-range)})" !default;
+$tablet-only-comp:    "min-width:#{lower-bound($tablet-range)}) and (max-width:#{upper-bound($tablet-range)}" !default;
+$laptop-up:           "#{$screen} and (min-width:#{lower-bound($laptop-range)})" !default;
+$laptop-up-comp:      "min-width:#{lower-bound($laptop-range)}" !default;
+$laptop-only:         "#{$screen} and (min-width:#{lower-bound($laptop-range)}) and (max-width:#{upper-bound($laptop-range)})" !default;
+$laptop-only-comp:    "min-width:#{lower-bound($laptop-range)}) and (max-width:#{upper-bound($laptop-range)}" !default;
+$desktop-up:          "#{$screen} and (min-width:#{lower-bound($desktop-range)})" !default;
+$desktop-up-comp:     "min-width:#{lower-bound($desktop-range)}" !default;
+$desktop-only:        "#{$screen} and (min-width:#{lower-bound($desktop-range)}) and (max-width:#{upper-bound($desktop-range)})" !default;
+$desktop-only-comp:   "min-width:#{lower-bound($desktop-range)}) and (max-width:#{upper-bound($desktop-range)}" !default;
+$xl-up:               "#{$screen} and (min-width:#{lower-bound($xl-range)})" !default;
+$xl-up-comp:          "#min-width:#{lower-bound($xl-range)}" !default;
+/* stylelint-enable */

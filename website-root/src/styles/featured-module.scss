@@ -1,0 +1,41 @@
+.featured {
+  padding: $rsp-padding-lg 0;
+  background-color: #ebe8ee;
+  border-top: 1px solid $rsp-purple;
+  border-bottom: 1px solid $rsp-purple;
+  
+  .mdev-main-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .featured-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 32%;
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: $rsp-padding-sm;
+  }
+  
+  p {
+    font-size: 45px;
+    line-height: 48px;
+    color: $white;
+    text-align: center;
+  }
+  
+  a {
+    font-size: 26px;
+    color: $white;
+    padding: 30px;
+    text-transform: uppercase;
+    border: 2px solid $white;
+    border-radius: 50px;
+  }
+}

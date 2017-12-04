@@ -1,0 +1,42 @@
+/*-----------------------------------------]
+
+	[Global Main Stylesheet] - V 0.0.2
+	Created On: Dec - 28 - 2016 - Ubuntu 16.04
+  Updated On: Oct - 26 - 2017 - Ubuntu 17.10
+
+	Desc: Main stylesheet comprises the
+	imports necessary to style the website
+	and avoids repetition inside the components
+
+----------------------------------------]*/
+
+/*----
+	Global Reset
+-----*/
+@import './reset.scss';
+
+/*----
+	Global Variables
+-----*/
+@import './variables.scss';
+
+/*----
+	Global Mixins
+-----*/
+@import './mixins.scss';
+
+/*----
+	Responsive Breakpoints
+-----*/
+@import './responsive.scss';
+
+/*----
+ 	Utilities
+-----*/
+@import './utilities.scss';
+
+/*----
+ 	Flex
+-----*/
+@import './flex.scss';
+

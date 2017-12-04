@@ -1,0 +1,48 @@
+.pre-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: $rsp-padding-sm 0;
+}
+
+.main-header {
+  border-top: 1px solid $rsp-grey;
+  border-bottom: 1px solid $rsp-grey;
+  
+  .mdev-main-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+  }
+}
+
+.nav {
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  a {
+    font-size: 24px;
+    color: $rsp-grey;
+    text-transform: uppercase;
+    padding: 20px 30px;
+  }
+  
+  li:last-child a {
+    background: $rsp-purple;
+    color: $white;
+    height: 100%;
+  }
+}
+
+body {
+  p {
+    color: $rsp-grey;
+  }
+}

@@ -1,0 +1,39 @@
+/*-------------------------------------
+ * VARIABLES - PROJECT WIDE
+/-------------------------------------*/
+
+// Main colors
+$rsp-blue: #6e76b6;
+$rsp-purple: #362157;
+$rsp-pink: #a36bac;
+$rsp-grey: #939598;
+$black: #000;
+$white: #fff;
+
+.rsp-purple {
+  color: $rsp-purple;
+}
+
+.rsp-blue {
+  color: $rsp-blue;
+}
+
+
+// Main Font
+$main-font: 'Archivo', 'Helvetica', sans-serif;
+$heading-weight: 700;
+$body-weight: 400;
+
+//
+
+// Sizing Variables
+
+// Spacing Variables
+$rsp-padding-sm: 20px;
+$rsp-padding-md: 45px;
+$rsp-padding-lg: 50px;
+
+// Button Variables
+
+// Radius Variables
+$standard-radius: 4px;

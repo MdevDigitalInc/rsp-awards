@@ -1,0 +1,58 @@
+/*-------------------------------------
+ *	BUTTONS MASTER STYLES
+ *-------------------------------------
+ *
+ *	Stylesheet dedicated to all button
+ *	styles including colour and typography
+ *
+/-------------------------------------*/
+
+/* Base Button */
+
+.rsp-btn {
+  width: auto;
+  padding: 30px;
+  transition: all, .3s;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.rsp-btn-round {
+  border-radius: 40px;
+}
+
+/* Button Colors */
+
+.rsp-btn-purple {
+  color: $rsp-grey;
+  background: $rsp-purple;
+  padding: 30px;
+  border-radius: 40px;
+
+  &:hover {
+    color: $white;
+    background: $rsp-blue;
+  }
+}
+
+.rsp-btn-outline {
+  color: $white;
+  border: 2px solid $white;
+  text-transform: uppercase;
+  padding: 30px;
+  border-radius: 40px;
+}
+
+.rsp-btn-blue {
+  color: $white;
+  background: $rsp-blue;
+  padding: 30px;
+  border-radius: 40px;
+
+  &:hover {
+    color: $white;
+    background: $rsp-purple;
+  }
+}

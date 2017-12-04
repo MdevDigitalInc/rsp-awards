@@ -1,0 +1,75 @@
+.about-intro {
+  padding: 100px 0;
+  
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .intro-content {
+    width: 55%;
+  }
+  
+  .submission {
+    width: 40%;
+  }
+  
+  .button-wrapper {
+    padding-top: $rsp-padding-md;
+  }
+  
+  .opportunities {
+    width: 50%;
+  }
+}
+
+.thank-you-banner {
+  padding: $rsp-padding-lg 0;
+  text-align: center;
+  background-color: $rsp-purple;
+  
+  p {
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 0;
+  }
+}
+
+.sponsors-list {
+  padding: 80px 0;
+  
+  h2 {
+    text-align: center;
+    padding-bottom: 80px;
+  }
+  
+  .sponsor-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .tile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+  }
+  
+  .position {
+    width: 20%;
+  }
+  
+  .image {
+    width: 30%;
+  }
+  
+  .desc {
+    width: 20%;
+  }
+  
+  .presenting-sponsor {
+    height: 225px;
+  }
+}
