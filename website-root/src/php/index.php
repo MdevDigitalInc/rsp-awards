@@ -92,7 +92,7 @@
               <p>Presenting Sponsor:</p>
             </div>
             <div class="image">
-              <img src="../img/sponsors/RSP-sponsor-zucora.jpg" alt="" />
+              <img src="/rsp-awards/img/sponsors/RSP-sponsor-zucora.jpg" alt="" />
             </div>
           </div>
           <div class="tile">
@@ -100,7 +100,7 @@
               <p>Communications Sponsor:</p>
             </div>
             <div class="image">
-              <img src="../img/sponsors/RSP-sponsor-HGO.jpg" alt="" />
+              <img src="/rsp-awards/img/sponsors/RSP-sponsor-HGO.jpg" alt="" />
             </div>
           </div>
           <div class="tile">
@@ -108,7 +108,7 @@
               <p>Event Sponsor:</p>
             </div>
             <div class="image">
-              <img src="../img/sponsors/RSP-sponsor-CHFA.jpg" alt="" />
+              <img src="/rsp-awards/img/sponsors/RSP-sponsor-CHFA.jpg" alt="" />
             </div>
           </div>
           <div class="tile">
@@ -116,7 +116,7 @@
               <p>Show Sponsor:</p>
             </div>
             <div class="image">
-              <img src="../img/sponsors/RSP-sponsor-CFS.jpg" alt="" />
+              <img src="/rsp-awards/img/sponsors/RSP-sponsor-CFS.jpg" alt="" />
             </div>
           </div>
         </div>
