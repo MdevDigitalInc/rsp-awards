@@ -88,7 +88,7 @@ var end = new Date('02/28/2018 12:00 AM');
         if (distance < 0) {
 
             clearInterval(timer);
-            document.getElementById('countdown').innerHTML = 'Nominations have Closed';
+            document.getElementById('js_countdown').innerHTML = 'Nominations have Closed';
 
             return;
         }
@@ -97,15 +97,15 @@ var end = new Date('02/28/2018 12:00 AM');
         var minutes = Math.floor((distance % _hour) / _minute);
         var seconds = Math.floor((distance % _minute) / _second);
 
-        document.getElementById('countdown').innerHTML ='<div class="days u-bold">' + days + '<br /><span>Days</span></div>';
-        document.getElementById('countdown').innerHTML +='<div class="hours u-bold">' + hours + '<br /><span>Hours</span></div> ';
-        document.getElementById('countdown').innerHTML += '<div class="mins u-bold">' + minutes + '<br /><span>Minutes</span></div>';
-        document.getElementById('countdown').innerHTML += '<div class="sec u-bold">' + seconds + '<br /><span>Seconds</span></div>';
+        document.getElementById('js_countdown').innerHTML ='<div class="days u-bold">' + days + '<br /><span>Days</span></div>';
+        document.getElementById('js_countdown').innerHTML +='<div class="hours u-bold">' + hours + '<br /><span>Hours</span></div> ';
+        document.getElementById('js_countdown').innerHTML += '<div class="mins u-bold">' + minutes + '<br /><span>Minutes</span></div>';
+        document.getElementById('js_countdown').innerHTML += '<div class="sec u-bold">' + seconds + '<br /><span>Seconds</span></div>';
     }
 
     timer = setInterval(showRemaining, 1000);
 </script>
-<div id="countdown"></div>
+<div class="countdown-wrapper" id="js_countdown"></div>
         </div>
       </div>
       <div class="main-header">
