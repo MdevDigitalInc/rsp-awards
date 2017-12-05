@@ -24,7 +24,7 @@
       <div class="decoration"></div>
     </section>
     <section class="national-recipient">
-      <h2>2017 National Recipient</h2>
+      <h1>2017 National Recipient</h1>
       <div class="recipient-wrapper">
         <div>
           <img src="../img/pastrecipients/2017/RSP-2017-NationalRecipient.png" alt="" />

@@ -32,7 +32,7 @@
     </div>
 </section>
     <section class="nomination-call mdev-main-wrapper">
-      <h3>Call for Nominations</h3>
+      <h1>Call for Nominations</h1>
       <div class="nomination-wrapper">
         <div class="nomination-content">
           <p>The RSP Awards recognize the sales professionals in Canada's Home Furnishings industry who exceed the standards for excellence in sales achievements and delivering customer excellence.  If someone you manage or work with exemplifies these qualities, they are a great candidate for an RSP Award Nomination.</p>
@@ -63,17 +63,17 @@
         <div class="blog-tile">
           <div class="blog-image" style="background-image: url('img/pastrecipients/2017/RSP-2017-NationalRecipient.png')"></div>
           <h5>News Article Title - Comes from Blog, Can be up to 2 Lines Long</h5>
-          <a href="#" class="read-more">Read More</a>
+          <a href="#" class="read-more">Read More<span></span></a>
         </div>
         <div class="blog-tile">
           <div class="blog-image"></div>
           <h5>News Article Title - Comes from Blog, Can be up to 2 Lines Long</h5>
-          <a href="#" class="read-more">Read More</a>
+          <a href="#" class="read-more">Read More<span></span></a>
         </div>
         <div class="blog-tile">
           <div class="blog-image"></div>
           <h5>News Article Title - Comes from Blog, Can be up to 2 Lines Long</h5>
-          <a href="#" class="read-more">Read More</a>
+          <a href="#" class="read-more">Read More<span></span></a>
         </div>
       </div>
     </section>

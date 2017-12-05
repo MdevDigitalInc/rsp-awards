@@ -38,6 +38,7 @@
 
 .recognition {
   background-image: url('../img/home/ceremony-bkg.png');
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   padding: 35px 0;
@@ -100,6 +101,15 @@
   .read-more {
     text-transform: uppercase;
     font-size: 18px;
+    
+    span {
+      content: '';
+      background-image: url('../img/icons/icon-arrow-body.svg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      padding-left: 4vw;
+      height: 5vh;
+    }
   }
 }
 

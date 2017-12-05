@@ -4,6 +4,65 @@
   justify-content: space-between;
   align-items: center;
   padding: $rsp-padding-sm 0;
+  
+  .social {
+    
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    li:first-child {
+      width: auto;
+      margin-right: 15px;
+    }
+    
+    li {
+      width: 50px;
+      margin-right: 10px;
+    }
+    
+    img {
+      background: $rsp-purple;
+      padding: 8px;
+      width: 42px;
+      height: 42px;
+    }
+  }
+  
+  .rsp-timer {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    
+    p {
+      padding-bottom: 0;
+    }
+  }
+  
+  #countdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    div {
+      text-align: center;
+      font-size: 45px;
+      color: $rsp-purple;
+      padding-left: $rsp-padding-sm;
+      line-height: 28px;
+    }
+    
+    span {
+      font-size: 16px;
+      color: $rsp-blue;
+    }
+  }
 }
 
 .main-header {

@@ -64,17 +64,48 @@
         <div class="social">
           <ul>
             <li>Join the Conversation</li>
-            <li></li>
-            <li></li>
+            <li><a href="#"><img src="img/icons/icon-linked-white.svg"</a></li>
+          <li><a href="#"><img src="img/icons/icon-fb-white.svg" alt="" /></a></li>
+          <li><a href="#"><img src="img/icons/icon-twit-white.svg" alt="" /></a></li>
           </ul>
         </div>
-        <div class="countdown">
+        <div class="rsp-timer">
           <div>
-            <p>Nominations open for another:</p>
+            <p class="u-bold rsp-blue">Nominations open for another:</p>
           </div>
-          <div class="timer">
-          
-          </div>
+<script>
+var end = new Date('02/28/2018 12:00 AM');
+
+    var _second = 1000;
+    var _minute = _second * 60;
+    var _hour = _minute * 60;
+    var _day = _hour * 24;
+    var timer;
+
+    function showRemaining() {
+        var now = new Date();
+        var distance = end - now;
+        if (distance < 0) {
+
+            clearInterval(timer);
+            document.getElementById('countdown').innerHTML = 'Nominations have Closed';
+
+            return;
+        }
+        var days = Math.floor(distance / _day);
+        var hours = Math.floor((distance % _day) / _hour);
+        var minutes = Math.floor((distance % _hour) / _minute);
+        var seconds = Math.floor((distance % _minute) / _second);
+
+        document.getElementById('countdown').innerHTML ='<div class="days u-bold">' + days + '<br /><span>Days</span></div>';
+        document.getElementById('countdown').innerHTML +='<div class="hours u-bold">' + hours + '<br /><span>Hours</span></div> ';
+        document.getElementById('countdown').innerHTML += '<div class="mins u-bold">' + minutes + '<br /><span>Minutes</span></div>';
+        document.getElementById('countdown').innerHTML += '<div class="sec u-bold">' + seconds + '<br /><span>Seconds</span></div>';
+    }
+
+    timer = setInterval(showRemaining, 1000);
+</script>
+<div id="countdown"></div>
         </div>
       </div>
       <div class="main-header">
@@ -84,11 +115,11 @@
           </div>
           <div class="nav">
             <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Previous Recipients</a></li>
-              <li><a href="#">Sponsors</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Nominations</a></li>
+              <li><a href="/about.php">About</a></li>
+              <li><a href="/past-recipients.php">Previous Recipients</a></li>
+              <li><a href="/sponsors.php">Sponsors</a></li>
+              <li><a href="/blog.php">News</a></li>
+              <li><a href="/nominations.php">Nominations</a></li>
             </ul>
           </div>
         </div>

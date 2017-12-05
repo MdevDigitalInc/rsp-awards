@@ -8,7 +8,7 @@
     </section>
     <section class="intro mdev-main-wrapper">
       <div class="intro-content">
-        <h2>About</h2>
+        <h1>About</h1>
         <p>The RSP Awards recognizes the sales professionals in Canada's Home Furnishings Industry who exceed the standards for excellence.</p>
         <p>For the second year in a row, the RSP Awards will proudly recognize top home furnishings industry professionals from across Canada.  These exemplary sales professionals have exceeded expectations.</p>
       </div>
@@ -72,7 +72,7 @@
       </div>
     </section>
     <section class="who mdev-main-wrapper">
-      <h2>Who should I nominate?</h2>
+      <h1>Who should I nominate?</h1>
       <div class="wrapper">
         <div class="who-content">
           <p>The RSP Awards seek to identify passionate sales professionals who have a tremendous impact on the home furnishings industry.  RSP Award recipients are the industry professionals who challenge themselves to provide daily customer excellence while achieving top sales results.  They are the industry leaders who build lasting, quality relationships with customers and peers while displaying forward-thinking leadership skills.  If this describes someone you know, submit a nomination today!</p>
@@ -88,7 +88,7 @@
     </section>
     <section class="eligibility">
       <div class="mdev-main-wrapper">
-        <h2>Nomination eligibility</h2>
+        <h1>Nomination eligibility</h1>
         <div class="wrapper">
           <div class="eligibility-content">
           <p class="u-bold rsp-purple">Candidates for nomination must meet the following minimum requirements:</p>
@@ -109,7 +109,7 @@
     </section>
     <section class="regional mdev-main-wrapper">
       <div class="regional-content">
-        <h2>Regional recipients</h2>
+        <h1>Regional recipients</h1>
         <p>To ensure a fair selection process that includes home furnishings professionals from across our nation, Canada has been divided into four regions, including all of the provinces.  Please review the regional divisions prior to submitting a nomination to ensure you are choosing the correct geographical location</p>
       </div>
       <div class="regions">
@@ -142,7 +142,7 @@
     </section>
     <section class="chosen">
       <div class="mdev-main-wrapper">
-        <h2>If your nominee is chosen</h2>
+        <h1>If your nominee is chosen</h1>
         <div class="wrapper">
           <div class="chosen-content">
             <p>All four regional recipients will receive an all-expense paid round-trip (travel, accomodation and meals) to Toronto.  Recipients will be formally recognized and will receive their RSP Awards during the Canadian Home Furnishings Gala on May 25, 2018.  Following the gala, recipients will be profiled by Home Goods Online where their personal success stories will be published and featured.</p>
@@ -154,7 +154,7 @@
       </div>
     </section>
     <section class="panel mdev-main-wrapper">
-      <h2>Meet the panel</h2>
+      <h1>Meet the panel</h1>
       <p>RSP Award recipients are selected through an open nomination process on the advice and recommendation of a panel of industry professionals.</p>
       <div class="panel-wrapper">
         <div class="member">
@@ -178,7 +178,7 @@
       </div>
     </section>
     <section class="presenting-sponsor mdev-main-wrapper">
-      <h2>A word from our Presenting Sponsor</h2>
+      <h1>A word from our Presenting Sponsor</h1>
       <div class="presenting-wrapper">
         <div class="image" style="background-image: url('./img/about/RSP-sponsor-BradGeddes.png')"></div>
         <div class="presenting-sponsor-content">

@@ -31,7 +31,7 @@
     </section>
     <section class="sponsors-list mdev-main-wrapper">
       <div class="sponsors-heading">
-        <h2>2018 Sponsors</h2>
+        <h1>2018 Sponsors</h1>
       </div>
       <div class="sponsor-wrapper">
         <div class="tile presenting-sponsor">
