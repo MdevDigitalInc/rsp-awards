@@ -3,10 +3,10 @@
 <?php include 'header.php'; ?>
 
 	<main role="main">
-		<section class="hero" style="background-image: url('./img/pastrecipients/hero-previousrecipients.png')">
+		<section class="rsp-hero" style="background-image: url('./img/pastrecipients/hero-previousrecipients.png')">
       
     </section>
-    <section class="recipient-intro intro mdev-main-wrapper">
+    <section class="recipient-intro intro mdev-main-wrapper flex flex-row flex-hor-between flex-vert-center">
       <div class="intro-content">
         <h1>Previous recipients</h1>
         <p>Each of these deserving sales professionals were nominated by their peers and/or managers for providing outstanding customer sales and service support.  The Recipients were selected from a diverse and wide range of nominations received from across Canada.</p>
@@ -25,7 +25,7 @@
     </section>
     <section class="national-recipient">
       <h1>2017 National Recipient</h1>
-      <div class="recipient-wrapper">
+      <div class="recipient-wrapper flex flex-row flex-vert-center">
         <div>
           <img src="../img/pastrecipients/2017/RSP-2017-NationalRecipient.png" alt="" />
         </div>
@@ -38,7 +38,7 @@
       </div>
     </section>
     <section class="regional-recipients mdev-main-wrapper">
-      <div class="recipient">
+      <div class="recipient flex flex-row flex-hor-between flex-vert-center">
         <div class="image">
           <img src="../img/pastrecipients/2017/RSP-2017-AmandaBell.jpg" alt="" />
         </div>
@@ -49,7 +49,7 @@
           <p><a href="#" class="profile-link">Read Amanda's profile on Home Goods Online</a></p>
         </div>
       </div>
-      <div class="recipient">
+      <div class="recipient flex flex-row flex-hor-between flex-vert-center">
         <div class="pullquote">
           <p>To me, being a sales associate is the best job.  I feel appreciated when I see the customer's smile after completing their room.</p>
           <p>Pour moi, etre associee aux ventes 'est le meilleur travail.  Je me sens tellement appreciee par mes clients, lorsque je les vois sourire de satisfaction, apres avoir meuble leur piece.</p>
@@ -61,7 +61,7 @@
           <img src="../img/pastrecipients/2017/RSP-2017-SylvieViel.jpg" alt="" />
         </div>
       </div>
-      <div class="recipient">
+      <div class="recipient flex flex-row flex-hor-between flex-vert-center">
         <div class="image">
           <img src="../img/pastrecipients/2017/RSP-2017-RuthParkinson.jpg" alt="" />
         </div>
@@ -72,7 +72,7 @@
           <p><a href="#" class="profile-link">Read Ruth's profile on Home Goods Online</a></p>
         </div>
       </div>
-      <div class="recipient">
+      <div class="recipient flex flex-row flex-hor-between flex-vert-center">
         <div class="pullquote">
           <p>My favourite thing about sales is knowing I've spent quality time with a customer and helped excite them about a purchase.</p>
           <p class="author"><span>Matthew Fecho</span><br />
@@ -84,22 +84,7 @@
         </div>
       </div>
     </section>
-    <section class="featured">
-    <div class="mdev-main-wrapper">
-      <div class="featured-box" style="background: url('img/tiles/feat-tile-nominate.png')">
-        <p>Submit a Nomination</p>
-        <a href="#">Learn More</a>
-      </div>
-      <div class="featured-box" style="background: url('img/tiles/feat-tile-2017recipients.png')">
-        <p>2017 Recipients</p>
-        <a href="#">Learn More</a>
-      </div>
-      <div class="featured-box" style="background: url('img/tiles/feat-tile-sponsorship.png')">
-        <p>Become an Event Sponsor</p>
-        <a href="#">Learn More</a>
-      </div>
-    </div>
-</section>
+    <?php include 'featured-module.php'; ?>
     
 	</main>
 <?php include 'mailing-cta.php'; ?>

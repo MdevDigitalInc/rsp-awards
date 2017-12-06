@@ -4,9 +4,6 @@ Single Posts
 
 .single-blog {
   padding: 65px 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .blog-main {
@@ -24,8 +21,6 @@ Single Posts
 }
   
 .date-meta {
-  display: flex;
-  flex-direction: row;
     
   p {
     padding: 0 $rsp-padding-sm;
@@ -45,10 +40,14 @@ Single Posts
   max-width: 840px;
   height: 500px;
   border: 1px solid $rsp-grey;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
   padding: 5px;
+  
+  .blog-image-inner {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
 }
 
 .blog-content {
@@ -122,11 +121,6 @@ Sidebar
 .social-widget {
   padding: $rsp-padding-md 0;
   
-  ul {
-    display: flex;
-    flex-direction: row;
-  }
-  
   li {
     width: 48px;
   }
@@ -148,13 +142,21 @@ Main Blog Page
 
 .blog {
   padding: 65px 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .featured-post {
   padding: $rsp-padding-sm 0;
+  
+  .blog-image {
+    padding: 5px;
+  }
+  
+  .blog-image-inner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+  }
   
   h2 {
     padding-top: $rsp-padding-sm;
@@ -162,10 +164,6 @@ Main Blog Page
 }
 
 .posts-wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
   
   .post {
     width: 48%;

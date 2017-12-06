@@ -3,12 +3,12 @@
 <?php include 'header.php'; ?>
 
 	<main role="main">
-		<section class="hero" style="background-image: url('./img/sponsors/hero-sponsorship.png')">
+		<section class="rsp-hero" style="background-image: url('./img/sponsors/hero-sponsorship.png')">
       
     </section>
     <section class="about-intro mdev-main-wrapper">
       <h1>Inspire excellence</h1>
-      <div class="wrapper">
+      <div class="wrapper flex flex-row flex-hor-between">
         <div class="intro-content">
           <p>Do you want to inspire excellence in home furnishing sales?  We invite you to join other industry leaders by recognizing the importance and value of exceptional sales performance by becoming an RSP Sponsor.</p>
           <div class="opportunities">
@@ -33,8 +33,8 @@
       <div class="sponsors-heading">
         <h1>2018 Sponsors</h1>
       </div>
-      <div class="sponsor-wrapper">
-        <div class="tile presenting-sponsor">
+      <div class="sponsor-wrapper flex flex-row flex-hor-between">
+        <div class="tile presenting-sponsor flex flex-row flex-hor-between">
           <div class="position">
             <h4>Presenting Sponsor:</h4>
           </div>
@@ -45,7 +45,7 @@
             <p>Canada's leading home furnishing protection company.</p>
           </div>
         </div>
-        <div class="tile">
+        <div class="tile flex flex-row flex-hor-between">
           <div class="position">
             <h4>Communications Sponsor:</h4>
           </div>
@@ -56,7 +56,7 @@
             <p>The nation's source for home furnishings industry news and information</p>
           </div>
         </div>
-        <div class="tile">
+        <div class="tile flex flex-row flex-hor-between">
           <div class="position">
             <h4>Event Sponsor:</h4>
           </div>
@@ -67,7 +67,7 @@
             <p>Representing home furnishing manufacturers, importers and distributors</p>
           </div>
         </div>
-        <div class="tile">
+        <div class="tile flex flex-row flex-hor-between">
           <div class="position">
             <h4>Show Sponsor:</h4>
           </div>
@@ -80,22 +80,7 @@
         </div>
       </div>
     </section>
-    <section class="featured">
-    <div class="mdev-main-wrapper">
-      <div class="featured-box" style="background: url('img/tiles/feat-tile-nominate.png')">
-        <p>Submit a Nomination</p>
-        <a href="#">Learn More</a>
-      </div>
-      <div class="featured-box" style="background: url('img/tiles/feat-tile-2017recipients.png')">
-        <p>2017 Recipients</p>
-        <a href="#">Learn More</a>
-      </div>
-      <div class="featured-box" style="background: url('img/tiles/feat-tile-sponsorship.png')">
-        <p>Become an Event Sponsor</p>
-        <a href="#">Learn More</a>
-      </div>
-    </div>
-</section>
+    <?php include 'featured-module.php'; ?>
     
 	</main>
 

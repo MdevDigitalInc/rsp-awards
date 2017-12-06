@@ -1,12 +1,12 @@
 <?php include 'header.php'; ?>
 
 	<main role="main">
-		<section class="hero" style="background-image: url('./img/home/RSP_2017Recipients.jpg')">
+		<section class="rsp-hero" style="background-image: url('./img/home/RSP_2017Recipients.jpg')">
       
     </section>
     <section class="home-intro mdev-main-wrapper">
       <h1>Recognizing excellence in<br />Canada's home furnishing's industry</h1>
-      <div class="intro-wrapper">
+      <div class="intro-wrapper flex flex-row flex-hor-between flex-vert-center">
         <div class="intro-content">
           <p>The Retail Sales Professional Awards celebrate the outstanding achievement of sales professionals throughout Canada's hoem furnishings industry.  driven by peer nominations, the RSP awards recognize those sales professionals who achieve success by challenging themselves to go "above and beyond" when delivering customer excellence.</p>
         </div>
@@ -15,28 +15,13 @@
         </div>
       </div>
     </section>
-    <section class="featured">
-    <div class="mdev-main-wrapper">
-      <div class="featured-box" style="background: url('img/tiles/feat-tile-nominate.png')">
-        <p>Submit a Nomination</p>
-        <a href="#">Learn More</a>
-      </div>
-      <div class="featured-box" style="background: url('img/tiles/feat-tile-2017recipients.png')">
-        <p>2017 Recipients</p>
-        <a href="#">Learn More</a>
-      </div>
-      <div class="featured-box" style="background: url('img/tiles/feat-tile-sponsorship.png')">
-        <p>Become an Event Sponsor</p>
-        <a href="#">Learn More</a>
-      </div>
-    </div>
-</section>
+    <?php include 'featured-module.php'; ?>
     <section class="nomination-call mdev-main-wrapper">
       <h1>Call for Nominations</h1>
-      <div class="nomination-wrapper">
+      <div class="nomination-wrapper flex flex-row flex-hor-between flex-vert-center">
         <div class="nomination-content">
           <p>The RSP Awards recognize the sales professionals in Canada's Home Furnishings industry who exceed the standards for excellence in sales achievements and delivering customer excellence.  If someone you manage or work with exemplifies these qualities, they are a great candidate for an RSP Award Nomination.</p>
-          <p>Nominations are open from January 8th 2018 until February 28th, 2018 at midnight EST.</p>
+          <p class="u-bold rsp-purple">Nominations are open from January 8th 2018 until February 28th, 2018 at midnight EST.</p>
         </div>
         <div class="nomination-button">
           <a href="#" class="rsp-btn rsp-btn-purple">Submit a nomination</a>
@@ -44,7 +29,7 @@
       </div>
     </section>
     <section class="recognition">
-      <div class="mdev-main-wrapper">
+      <div class="mdev-main-wrapper flex flex-row flex-hor-between flex-vert-center">
         <div class="recognition-content">
         <h1>Recognition</h1>
           <p>The second annual RSP Award recipients will be recognized at the 2018 Canadian Home Furnishings Awards Gala held just prior to the <a href="#">Canadian Furniture Show</a> in Toronto, Ontario</p>
@@ -59,9 +44,11 @@
     </section>
     <section class="recent-news mdev-main-wrapper">
       <h1>Latest RSP News</h1>
-      <div class="news-wrapper">
+      <div class="news-wrapper flex flex-row flex-hor-between">
         <div class="blog-tile">
-          <div class="blog-image" style="background-image: url('img/pastrecipients/2017/RSP-2017-NationalRecipient.png')"></div>
+          <div class="blog-image">
+            <div class="blog-image-inner" style="background-image: url('img/pastrecipients/2017/RSP-2017-NationalRecipient.png')"></div>
+          </div>
           <h5>News Article Title - Comes from Blog, Can be up to 2 Lines Long</h5>
           <a href="#" class="read-more">Read More<span></span></a>
         </div>
@@ -77,7 +64,7 @@
         </div>
       </div>
     </section>
-    <section class="about-banner">
+    <section class="quote quote-purple">
       <h2>We're working to support sales associates in the furniture industry.  Now we can recognize individuals whose hard efforts are making significant contributions by serving consumers.</h2>
       <div class="decoration"></div>
     </section>
@@ -85,38 +72,38 @@
       <div class="sponsor-header">
         <h1>Sponsors</h1>
       </div>
-      <div class="sponsor-wrapper">
-        <div class="sponsor-inner-wrapper">
-          <div class="tile presenting-sponsor">
+      <div class="sponsor-wrapper flex flex-row flex-hor-between">
+        <div class="sponsor-inner-wrapper flex flex-column">
+          <div class="tile presenting-sponsor flex flex-row flex-hor-between">
             <div class="position">
-              <p>Presenting Sponsor:</p>
+              <p class="u-bold rsp-purple">Presenting Sponsor:</p>
             </div>
             <div class="image">
-              <img src="/rsp-awards/img/sponsors/RSP-sponsor-zucora.jpg" alt="" />
+              <img src="../img/sponsors/RSP-sponsor-zucora.jpg" alt="" />
             </div>
           </div>
-          <div class="tile">
+          <div class="tile flex flex-row flex-hor-between">
             <div class="position">
-              <p>Communications Sponsor:</p>
+              <p class="u-bold rsp-purple">Communications Sponsor:</p>
             </div>
             <div class="image">
-              <img src="/rsp-awards/img/sponsors/RSP-sponsor-HGO.jpg" alt="" />
+              <img src="../img/sponsors/RSP-sponsor-HGO.jpg" alt="" />
             </div>
           </div>
-          <div class="tile">
+          <div class="tile flex flex-row flex-hor-between">
             <div class="position">
-              <p>Event Sponsor:</p>
+              <p class="u-bold rsp-purple">Event Sponsor:</p>
             </div>
             <div class="image">
-              <img src="/rsp-awards/img/sponsors/RSP-sponsor-CHFA.jpg" alt="" />
+              <img src="../img/sponsors/RSP-sponsor-CHFA.jpg" alt="" />
             </div>
           </div>
-          <div class="tile">
+          <div class="tile flex flex-row flex-hor-between">
             <div class="position">
-              <p>Show Sponsor:</p>
+              <p class="u-bold rsp-purple">Show Sponsor:</p>
             </div>
             <div class="image">
-              <img src="/rsp-awards/img/sponsors/RSP-sponsor-CFS.jpg" alt="" />
+              <img src="../img/sponsors/RSP-sponsor-CFS.jpg" alt="" />
             </div>
           </div>
         </div>

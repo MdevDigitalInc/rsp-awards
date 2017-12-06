@@ -1,0 +1,27 @@
+.quote {
+  padding: 100px 0 80px;
+  text-align: center;
+  
+  h2 {
+    width: 68%;
+    margin: 0 auto;
+    color: $rsp-body;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 60px;
+  }
+}
+
+.quote-purple {
+  background-color: $rsp-purple;
+}
+
+.decoration {
+  margin-top: 20px;
+  content: '';
+  background-image: url('../img/icons/decorative-element.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 40px;
+  width: 100%;
+}

@@ -2,14 +2,14 @@
 
 	<main role="main">
 	<!-- section -->
-	<section class="single-blog mdev-main-wrapper">
+	<section class="single-blog mdev-main-wrapper  flex flex-row flex-hor-between">
     <div class="blog-main">
       <div class="blog-title">
         <h1 class="rsp-purple">We Found Canada's Best Retail Furniture Sales People</h1>
       </div>
       <div class="blog-meta">
         <p class="author">BY: Michael Knell & Corrie-Ann Knell</p>
-        <div class="date-meta">
+        <div class="date-meta flex flew-row">
           <div>
             <p class="date">ON: January 2, 2018</p>
           </div>
@@ -18,7 +18,9 @@
           </div>
         </div>
       </div>
-      <div class="blog-image" style="background-image: url('img/home/RSP_2017Recipients.jpg')">
+      <div class="blog-image">
+        <div class="blog-image-inner" style="background-image: url('img/home/RSP_2017Recipients.jpg')">
+        </div>
       </div>
       <div class="blog-content">
         <p>EARLIER THIS YEAR AND IN COLLABORATION with <a href="#">Zucora Inc.</a>, Home Goods Online launched a new awards program whose goal was to seek out this country's best retail sales people and sales managers working in Canadian furniture, mattress, and major appliance stores.  The quality of the response we received from retailers across the country was staggering and truly encouraging.  The amount of raw talent at work on retail floors from Victoria to St. John's has to be seen to believed.</p>
@@ -55,22 +57,7 @@
     <?php include 'sidebar.php'; ?>
 	</section>
   
-  <section class="featured">
-    <div class="mdev-main-wrapper">
-      <div class="featured-box" style="background: url('img/tiles/feat-tile-nominate.png')">
-        <p>Submit a Nomination</p>
-        <a href="#">Learn More</a>
-      </div>
-      <div class="featured-box" style="background: url('img/tiles/feat-tile-2017recipients.png')">
-        <p>2017 Recipients</p>
-        <a href="#">Learn More</a>
-      </div>
-      <div class="featured-box" style="background: url('img/tiles/feat-tile-sponsorship.png')">
-        <p>Become an Event Sponsor</p>
-        <a href="#">Learn More</a>
-      </div>
-    </div>
-</section>
+  <?php include 'featured-module.php'; ?>
 	<!-- /section -->
 	</main>
 

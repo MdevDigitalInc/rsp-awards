@@ -5,7 +5,8 @@
 /* Main */
 body {
   font-family: $main-font;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 32px;
   color: $rsp-body;
 }
 
@@ -29,6 +30,10 @@ h6,.h6, {
   font-weight: 400;
   color: $rsp-purple;
   padding-bottom: $rsp-padding-sm;
+}
+
+h1 {
+  line-height: 65px;
 }
 
 h4,.h4,
@@ -108,7 +113,7 @@ $link-font-sizes: (
 /* Generate Responsive Sizing */
 
 p {
-  line-height: 24px;
+  line-height: 32px;
   @include font-size($p-font-sizes);
 }
 

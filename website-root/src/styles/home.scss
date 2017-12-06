@@ -3,10 +3,6 @@
 }
 
 .intro-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   
   .intro-content {
     width: 60%;
@@ -37,19 +33,12 @@
 }
 
 .recognition {
-  background-image: url('/rsp-awards/img/home/ceremony-bkg.png');
+  background-image: url('../img/home/ceremony-bkg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   padding: 35px 0;
   color: $white;
-  
-  .mdev-main-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
   
   .recognition-content {
     width: 45%;
@@ -77,13 +66,11 @@
   
   h1 {
     text-align: center;
+    padding-bottom: 0;
   }
   
   .news-wrapper {
     padding-top: 80px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
   }
   
   .blog-tile {
@@ -92,6 +79,14 @@
   
   .blog-image {
     height: 400px;
+    padding: 5px;
+  }
+  
+  .blog-image-inner {
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
   }
   
   h5 {
@@ -113,21 +108,6 @@
   }
 }
 
-.about-banner {
-  background-color: $rsp-purple;
-  padding: 100px 0;
-  text-align: center;
-  
-  h2 {
-    width: 70%;
-    margin: 0 auto;
-    color: $rsp-grey;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 60px;
-  }
-}
-
 .sponsors {
   padding: 100px;
   
@@ -136,41 +116,47 @@
     padding-bottom: 80px;
   }
   
-  .sponsor-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
   .sponsor-inner-wrapper {
-    display: flex;
-    flex-direction: column;
     width: 55%;
     
     .tile {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
       height: 150px;
+    }
+    
+    .position {
+      width: 50%;
+    }
+    
+    .image {
+      width: 45%;
     }
     
     .presenting-sponsor {
       height: 250px;
     }
+    
+    img {
+      display: block;
+      text-align: left;
+    }
   }
   
   .sponsor-cta {
-    width: 30%;
-    padding-left: 20px;
+    border-left: 1px solid $rsp-grey;
+    width: 35%;
+    padding-left: 40px;
     
     p {
+      padding-top: $rsp-padding-sm;
       font-size: 24px;
       line-height: 34px;
       color: $rsp-purple;
+      font-style: italic;
     }
     
     .button-wrapper {
-      padding-top: $rsp-padding-md;
+      font-style: normal;
+      padding-top: $rsp-padding-lg;
     }
   }
 }

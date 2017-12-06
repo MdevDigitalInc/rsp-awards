@@ -3,18 +3,27 @@ footer {
   padding: 70px 0;
   
   .mdev-main-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: $white;
+
+    p,
+    a {
+      color: $white;
+    }
     
-    div {
-      width: 30%;
+    .footer-contact {
+      width: 20%;
+    }
+    
+    .footer-about {
+      width: 40%;
+    }
+    
+    .footer-social {
+      width: 25%;
     }
     
     h4 {
       color: $white;
-      padding-bottom: $rsp-padding-sm;
+      padding-bottom: 10px;
     }
     
     .address {
@@ -32,18 +41,20 @@ footer {
     }
   }
   .social {
-    display: flex;
-    flex-direction: row;
     padding-bottom: $rsp-padding-md;
     
     li {
-      width: 48px;
+      width: 50px;
     }
     img {
       background: $white;
-      padding: 8px;
+      padding: 10px;
       width: 40px;
       height: 40px;
     }
+  }
+  
+  .footer-logo {
+    width: 50%;
   }
 }

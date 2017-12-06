@@ -30,8 +30,8 @@
 }
 
 .recipient-intro {
-  display: flex;
-  flex-direction: row;
+  padding: 100px 0 80px;
+    
   .intro-content {
     width: 55%;
   }
@@ -88,13 +88,9 @@
 }
 
 .recipient {
-  display: flex;
   padding: 50px 0;
-  flex-directon: row;
-  justify-content: space-between;
   max-width: 72%;
   margin: 0 auto;
-  align-items: center;
   
   .image {
     width: 45%;

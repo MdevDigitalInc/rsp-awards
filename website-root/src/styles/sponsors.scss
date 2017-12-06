@@ -1,12 +1,6 @@
 .about-intro {
   padding: 100px 0;
   
-  .wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
   .intro-content {
     width: 55%;
   }
@@ -44,16 +38,7 @@
     padding-bottom: 80px;
   }
   
-  .sponsor-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
   .tile {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     height: 150px;
   }
   

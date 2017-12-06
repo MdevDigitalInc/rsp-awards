@@ -60,18 +60,18 @@
 	<body>
     
     <header>
-      <div class="pre-header mdev-main-wrapper">
+      <div class="pre-header mdev-main-wrapper flex flex-row flex-hor-between flex-vert-center">
         <div class="social">
-          <ul>
-            <li>Join the Conversation</li>
+          <ul class=" flex flex-row flex-hor-between flex-vert-center">
+            <li class="u-bold u-uppercase rsp-blue">Join the Conversation</li>
             <li><a href="#"><img src="img/icons/icon-linked-white.svg"</a></li>
           <li><a href="#"><img src="img/icons/icon-fb-white.svg" alt="" /></a></li>
           <li><a href="#"><img src="img/icons/icon-twit-white.svg" alt="" /></a></li>
           </ul>
         </div>
-        <div class="rsp-timer">
+        <div class="rsp-timer flex flex-row flex-vert-center flex-hor-end">
           <div>
-            <p class="u-bold rsp-blue">Nominations open for another:</p>
+            <p class="u-bold u-uppercase rsp-blue">Nominations open for another:</p>
           </div>
 <script>
 var end = new Date('02/28/2018 12:00 AM');
@@ -97,31 +97,29 @@ var end = new Date('02/28/2018 12:00 AM');
         var minutes = Math.floor((distance % _hour) / _minute);
         var seconds = Math.floor((distance % _minute) / _second);
 
-        document.getElementById('js_countdown').innerHTML ='<div class="days u-bold">' + days + '<br /><span>Days</span></div>';
-        document.getElementById('js_countdown').innerHTML +='<div class="hours u-bold">' + hours + '<br /><span>Hours</span></div> ';
-        document.getElementById('js_countdown').innerHTML += '<div class="mins u-bold">' + minutes + '<br /><span>Minutes</span></div>';
-        document.getElementById('js_countdown').innerHTML += '<div class="sec u-bold">' + seconds + '<br /><span>Seconds</span></div>';
+        document.getElementById('js_countdown').innerHTML ='<div class="rsp-counter days u-bold">' + days + '<br /><span>Days</span></div>';
+        document.getElementById('js_countdown').innerHTML +='<div class="rsp-counter hours u-bold">' + hours + '<br /><span>Hours</span></div> ';
+        document.getElementById('js_countdown').innerHTML += '<div class="rsp-counter mins u-bold">' + minutes + '<br /><span>Minutes</span></div>';
+        document.getElementById('js_countdown').innerHTML += '<div class="rsp-counter sec u-bold">' + seconds + '<br /><span>Seconds</span></div>';
     }
 
     timer = setInterval(showRemaining, 1000);
 </script>
-<div class="countdown-wrapper" id="js_countdown"></div>
+<div class="countdown-wrapper flex flex-row flex-hor-between flex-vert-center" id="js_countdown"></div>
         </div>
       </div>
-      <div class="main-header">
-        <div class="mdev-main-wrapper">
-          <div class="logo">
+      <div class="main-header flex flex-row flex-hor-between flex-vert-center">
+          <div class="logo flex flex-vert-center">
             <img src="img/logos/RSP2018_RBG_LONG.svg" alt="Retail Sales Professional Awards" height="60" width="auto" />
           </div>
           <div class="nav">
-            <ul>
+            <ul class="flex flex-row flex-hor-between flex-vert-center">
               <li><a href="/rsp-awards/about.php">About</a></li>
               <li><a href="/rsp-awards/past-recipients.php">Previous Recipients</a></li>
               <li><a href="/rsp-awards/sponsors.php">Sponsors</a></li>
               <li><a href="/rsp-awards/blog.php">News</a></li>
               <li><a href="/rsp-awards/nominations.php">Nominations</a></li>
             </ul>
-          </div>
         </div>
       </div>
     </header>

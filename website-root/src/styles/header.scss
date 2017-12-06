@@ -1,18 +1,7 @@
 .pre-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   padding: $rsp-padding-sm 0;
   
   .social {
-    
-    ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-    }
     
     li:first-child {
       width: auto;
@@ -26,18 +15,14 @@
     
     img {
       background: $rsp-purple;
-      padding: 8px;
-      width: 42px;
-      height: 42px;
+      padding: 10px;
+      width: 40px;
+      height: 40px;
     }
   }
   
   .rsp-timer {
-    width: 45%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
+    width: 50%;
     
     p {
       padding-bottom: 0;
@@ -45,21 +30,30 @@
   }
   
   .countdown-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     
-    div {
+    .rsp-counter {
       text-align: center;
       font-size: 45px;
       color: $rsp-purple;
       padding-left: $rsp-padding-sm;
       line-height: 28px;
+      position: relative;
+      
+      &:after {
+        content: ':';
+        position: absolute;
+        top: -.1vh;
+        right: -25%;
+      }
+      
+      &:last-child:after {
+        content: '';
+      }
     }
     
     span {
       font-size: 16px;
+      line-height: 20px;
       color: $rsp-blue;
     }
   }
@@ -68,23 +62,14 @@
 .main-header {
   border-top: 1px solid $rsp-grey;
   border-bottom: 1px solid $rsp-grey;
+  position: relative;
   
   .mdev-main-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     height: 100px;
   }
 }
 
 .nav {
-  
-  ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
   
   a {
     font-size: 24px;
@@ -93,10 +78,15 @@
     padding: 20px 30px;
   }
   
-  li:last-child a {
-    background: $rsp-purple;
-    color: $white;
+  li:last-child {
     height: 100%;
+  
+    a {
+      background: $rsp-purple;
+      color: $white;
+      display: inline-block;
+      height: 100%;
+    }
   }
 }
 
