@@ -47,7 +47,7 @@
       <div class="news-wrapper flex flex-row flex-hor-between">
         <div class="blog-tile">
           <div class="blog-image">
-            <div class="blog-image-inner" style="background-image: url('img/pastrecipients/2017/RSP-2017-NationalRecipient.png')"></div>
+            <div class="blog-image-inner" style="background-image: url('/rsp-awards/img/pastrecipients/2017/RSP-2017-NationalRecipient.png')"></div>
           </div>
           <h5>News Article Title - Comes from Blog, Can be up to 2 Lines Long</h5>
           <a href="#" class="read-more">Read More<span></span></a>
@@ -79,7 +79,7 @@
               <p class="u-bold rsp-purple">Presenting Sponsor:</p>
             </div>
             <div class="image">
-              <img src="../img/sponsors/RSP-sponsor-zucora.jpg" alt="" />
+              <img src="/rsp-awards/img/sponsors/RSP-sponsor-zucora.jpg" alt="" />
             </div>
           </div>
           <div class="tile flex flex-row flex-hor-between">
@@ -87,7 +87,7 @@
               <p class="u-bold rsp-purple">Communications Sponsor:</p>
             </div>
             <div class="image">
-              <img src="../img/sponsors/RSP-sponsor-HGO.jpg" alt="" />
+              <img src="/rsp-awards/img/sponsors/RSP-sponsor-HGO.jpg" alt="" />
             </div>
           </div>
           <div class="tile flex flex-row flex-hor-between">
@@ -95,7 +95,7 @@
               <p class="u-bold rsp-purple">Event Sponsor:</p>
             </div>
             <div class="image">
-              <img src="../img/sponsors/RSP-sponsor-CHFA.jpg" alt="" />
+              <img src="/rsp-awards/img/sponsors/RSP-sponsor-CHFA.jpg" alt="" />
             </div>
           </div>
           <div class="tile flex flex-row flex-hor-between">
@@ -103,7 +103,7 @@
               <p class="u-bold rsp-purple">Show Sponsor:</p>
             </div>
             <div class="image">
-              <img src="../img/sponsors/RSP-sponsor-CFS.jpg" alt="" />
+              <img src="/rsp-awards/img/sponsors/RSP-sponsor-CFS.jpg" alt="" />
             </div>
           </div>
         </div>
