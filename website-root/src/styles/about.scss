@@ -139,7 +139,7 @@
   }
   
   .image {
-    height: 400px;
+    padding: 50% 0;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -162,7 +162,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     width: 20%;
-    height: 300px;
+    padding: 10% 0;
   }
   
   .presenting-sponsor-content {
@@ -171,10 +171,10 @@
   }
   
   .signature-text {
-    font-size: 18px;
+    font-size: 1.2vw;
     
     span {
-      font-size: 22px;
+      font-size: 1.7vw;
     }
   }
 }

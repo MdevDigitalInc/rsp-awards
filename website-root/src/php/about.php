@@ -47,7 +47,7 @@
               <p>mid-march, 2018</p>
             </div>
           </div>
-          <div class="item">
+          <div class="item flex flex-row flex-hor-between">
             <div>
               <p class="u-bold rsp-purple">Recipients announced</p>
             </div>
@@ -55,7 +55,7 @@
               <p>end of March, 2018</p>
             </div>
           </div>
-          <div class="item">
+          <div class="item flex flex-row flex-hor-between">
             <div>
               <p class="u-bold rsp-purple">Canadian Furniture Show Gala</p>
             </div>
