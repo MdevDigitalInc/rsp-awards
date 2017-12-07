@@ -19,7 +19,7 @@
         </div>
       </div>
       <div class="blog-image">
-        <div class="blog-image-inner" style="background-image: url('img/home/RSP_2017Recipients.jpg')">
+        <div class="blog-image-inner" style="background-image: url('/rsp-awards/img/home/RSP_2017Recipients.jpg')">
         </div>
       </div>
       <div class="blog-content">

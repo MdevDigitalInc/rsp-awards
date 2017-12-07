@@ -3,9 +3,7 @@
 <?php include 'header.php'; ?>
 
 	<main role="main">
-		<section class="rsp-hero" style="background-image: url('./img/sponsors/hero-sponsorship.png')">
-      
-    </section>
+		<?php include 'rsp-hero.php'; ?>
     <section class="about-intro mdev-main-wrapper">
       <h1>Inspire excellence</h1>
       <div class="wrapper flex flex-row flex-hor-between">
@@ -40,7 +38,7 @@
           </div>
           <div class="image">
             <a href="http://www.zucora.com/" target="_blank">
-              <img src="/img/sponsors/RSP-sponsor-zucora.jpg" alt="" />
+              <img src="/rsp-awards/img/sponsors/RSP-sponsor-zucora.jpg" alt="" />
             </a>
           </div>
           <div class="desc">
@@ -53,7 +51,7 @@
           </div>
           <div class="image">
             <a href="https://www.homegoodsonline.ca/" target="_blank">
-              <img src="/img/sponsors/RSP-sponsor-HGO.jpg" alt="" />
+              <img src="/rsp-awards/img/sponsors/RSP-sponsor-HGO.jpg" alt="" />
             </a>
           </div>
           <div class="desc">
@@ -66,7 +64,7 @@
           </div>
           <div class="image">
             <a href="http://www.chfaweb.ca/i-about.html" target="_blank">
-              <img src="/img/sponsors/RSP-sponsor-CHFA.jpg" alt="" />
+              <img src="/rsp-awards/img/sponsors/RSP-sponsor-CHFA.jpg" alt="" />
             </a>
           </div>
           <div class="desc">
@@ -79,7 +77,7 @@
           </div>
           <div class="image">
             <a href="http://www.canadianfurnitureshow.com/" target="_blank">
-              <img src="/img/sponsors/RSP-sponsor-CFS.jpg" alt="" />
+              <img src="/rsp-awards/img/sponsors/RSP-sponsor-CFS.jpg" alt="" />
             </a>
           </div>
           <div class="desc">

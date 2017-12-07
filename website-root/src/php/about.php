@@ -3,9 +3,7 @@
 <?php include 'header.php'; ?>
 
 	<main role="main" class="page-main">
-		<section class="rsp-hero" style="background-image: url('./img/about/hero-about.png')">
-      
-    </section>
+		<?php include 'rsp-hero.php'; ?>
     <section class="rsp-intro mdev-main-wrapper flex flex-row flex-hor-between">
       <div class="intro-content">
         <h1>About</h1>
@@ -157,19 +155,19 @@
       <p>RSP Award recipients are selected through an open nomination process on the advice and recommendation of a panel of industry professionals.</p>
       <div class="panel-wrapper flex flex-row flex-hor-between">
         <div class="member">
-          <div class="image" style="background-image: url('./img/about/RSP-panel-MarkGeddes.png')"></div>
+          <div class="image" style="background-image: url('/rsp-awards/img/about/RSP-panel-MarkGeddes.png')"></div>
           <h3 class="u-bold">Mark Geddes</h3>
           <p class="position">National Director, Corporate Sales Training, Zucora Inc.</p>
           <p>Mark leads Zucora's coaching team to help retailers achieve high standards of performance.</p>
         </div>
         <div class="member">
-          <div class="image" style="background-image: url('./img/about/RSP-panel-CorrieAnnKnell.png')"></div>
+          <div class="image" style="background-image: url('/rsp-awards/img/about/RSP-panel-CorrieAnnKnell.png')"></div>
           <h3 class="u-bold">Corrie-Ann Knell</h3>
           <p class="position">Director os Sales &amp; Marketing, Home Goods Online</p>
           <p>Corrie-Ann develops marketing programs to assist industry suppliers in sharing their product messages throughout Canada.</p>
         </div>
         <div class="member">
-          <div class="image" style="background-image: url('./img/about/RSP-panel-PatKelly.png')"></div>
+          <div class="image" style="background-image: url('/rsp-awards/img/about/RSP-panel-PatKelly.png')"></div>
           <h3 class="u-bold">Pat Kelly</h3>
           <p class="position">Asst. VP Home Furnishings, Cantrex Nationwide</p>
           <p>With more than 40 years industry experience, Pat is responsible for the product and marketing programs for CNW dealers across Canada.</p>
@@ -179,7 +177,7 @@
     <section class="presenting-sponsor mdev-main-wrapper">
       <h1>A word from our Presenting Sponsor</h1>
       <div class="presenting-wrapper flex flex-row flex-hor-between">
-        <div class="image" style="background-image: url('./img/about/RSP-sponsor-BradGeddes.png')"></div>
+        <div class="image" style="background-image: url('/rsp-awards/img/about/RSP-sponsor-BradGeddes.png')"></div>
         <div class="presenting-sponsor-content">
           <p>As the RSP Awards presenting sponsor, Zucora is proud to play a role in the encouragement and development of today's sales leaders throughout the home furnishings industry.  When sales professionals go 'above-and-beyond' they set themselves and their businesses apart from the competition.  By delivering an exceptional customer experience, sales professionals ensure that manufacturers, suppliers and retailers can all benefit by helping o grow our industry.</p>
           <div class="signature">

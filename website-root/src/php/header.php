@@ -110,7 +110,7 @@ var end = new Date('02/28/2018 12:00 AM');
       </div>
       <div class="main-header flex flex-row flex-hor-between flex-vert-center">
           <div class="logo flex flex-vert-center">
-            <img src="img/logos/RSP2018_RBG_LONG.svg" alt="Retail Sales Professional Awards" height="60" width="auto" />
+            <img src="/rsp-awards/img/logos/RSP2018_RBG_LONG.svg" alt="Retail Sales Professional Awards" height="60" width="auto" />
           </div>
           <div class="nav">
             <ul class="flex flex-row flex-hor-between flex-vert-center">

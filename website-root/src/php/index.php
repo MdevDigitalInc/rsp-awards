@@ -78,7 +78,7 @@
             </div>
             <div class="image">
               <a href="http://www.zucora.com/" target="_blank">
-                <img src="../img/sponsors/RSP-sponsor-zucora.jpg" alt="" />
+                <img src="/rsp-awards/img/sponsors/RSP-sponsor-zucora.jpg" alt="" />
               </a>
             </div>
           </div>
@@ -88,7 +88,7 @@
             </div>
             <div class="image">
               <a href="https://www.homegoodsonline.ca/" target="_blank">
-                <img src="../img/sponsors/RSP-sponsor-HGO.jpg" alt="" />
+                <img src="/rsp-awards/img/sponsors/RSP-sponsor-HGO.jpg" alt="" />
               </a>
             </div>
           </div>
@@ -98,7 +98,7 @@
             </div>
             <div class="image">
               <a href="http://www.chfaweb.ca/i-about.html" target="_blank">
-                <img src="../img/sponsors/RSP-sponsor-CHFA.jpg" alt="" />
+                <img src="/rsp-awards/img/sponsors/RSP-sponsor-CHFA.jpg" alt="" />
               </a>
             </div>
           </div>
@@ -108,7 +108,7 @@
             </div>
             <div class="image">
               <a href="http://www.canadianfurnitureshow.com/" target="_blank">
-                <img src="../img/sponsors/RSP-sponsor-CFS.jpg" alt="" />
+                <img src="/rsp-awards/img/sponsors/RSP-sponsor-CFS.jpg" alt="" />
               </a>
             </div>
           </div>

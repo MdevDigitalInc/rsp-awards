@@ -11,9 +11,9 @@
     <div class="widget social-widget">
       <h4>Join the Conversation</h4>
       <ul class="social flex flex-row">
-        <li><a href="#"><img src="img/icons/icon-linked-white.svg"</a></li>
-        <li><a href="#"><img src="img/icons/icon-fb-white.svg" alt="" /></a></li>
-        <li><a href="#"><img src="img/icons/icon-twit-white.svg" alt="" /></a></li>
+        <li><a href="#"><img src="/rsp-awards/img/icons/icon-linked-white.svg"</a></li>
+        <li><a href="#"><img src="/rsp-awards/img/icons/icon-fb-white.svg" alt="" /></a></li>
+        <li><a href="#"><img src="/rsp-awards/img/icons/icon-twit-white.svg" alt="" /></a></li>
       </ul>
     </div>
     <div cass="widget sponsorship-widget">

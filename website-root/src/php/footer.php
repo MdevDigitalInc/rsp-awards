@@ -24,7 +24,7 @@
       </ul>
       <div class="footer-logo">
         <a href="/index.php">
-          <img src="img/logos/RSP2018_RBG_MASTER_white.svg" alt="2018 RSP Awards" />
+          <img src="/rsp-awards/img/logos/RSP2018_RBG_MASTER_white.svg" alt="2018 RSP Awards" />
         </a>
       </div>
     </div>

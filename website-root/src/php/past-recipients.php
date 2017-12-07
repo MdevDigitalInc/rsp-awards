@@ -3,9 +3,7 @@
 <?php include 'header.php'; ?>
 
 	<main role="main">
-		<section class="rsp-hero" style="background-image: url('./img/pastrecipients/hero-previousrecipients.png')">
-      
-    </section>
+		<?php include 'rsp-hero.php'; ?>
     <section class="recipient-intro intro mdev-main-wrapper flex flex-row flex-hor-between flex-vert-center">
       <div class="intro-content">
         <h1>Previous recipients</h1>
@@ -40,7 +38,7 @@
     <section class="regional-recipients mdev-main-wrapper">
       <div class="recipient flex flex-row flex-hor-between flex-vert-center">
         <div class="image">
-          <img src="../img/pastrecipients/2017/RSP-2017-AmandaBell.jpg" alt="" />
+          <img src="/rsp-awards/img/pastrecipients/2017/RSP-2017-AmandaBell.jpg" alt="" />
         </div>
         <div class="pullquote">
           <p>My goal is to wow my clients and make their experience a happy one.  Sales has proven to be a very rewarding career choice.</p>
@@ -58,12 +56,12 @@
           <a href="#" class="profile-link">Read Sylvie's profile on Home Goods Online<i class="rsp-arrow-blue"></i></a></p>
         </div>
         <div class="image">
-          <img src="../img/pastrecipients/2017/RSP-2017-SylvieViel.jpg" alt="" />
+          <img src="/rsp-awards/img/pastrecipients/2017/RSP-2017-SylvieViel.jpg" alt="" />
         </div>
       </div>
       <div class="recipient flex flex-row flex-hor-between flex-vert-center">
         <div class="image">
-          <img src="../img/pastrecipients/2017/RSP-2017-RuthParkinson.jpg" alt="" />
+          <img src="/rsp-awards/img/pastrecipients/2017/RSP-2017-RuthParkinson.jpg" alt="" />
         </div>
         <div class="pullquote">
           <p>I don't just sell furniture, I sell service.  I have a vested interest in people's lives and I never want to disappoint.  It's who I am.</p>
@@ -80,7 +78,7 @@
           <a href="#" class="profile-link">Read Matthew's profile on Home Goods Online<i class="rsp-arrow-blue"></i></a></p>
         </div>
         <div>
-          <img src="../img/pastrecipients/2017/RSP-2017-MatthewFecho.jpg" alt="" />
+          <img src="/rsp-awards/img/pastrecipients/2017/RSP-2017-MatthewFecho.jpg" alt="" />
         </div>
       </div>
     </section>
