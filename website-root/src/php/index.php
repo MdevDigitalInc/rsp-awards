@@ -1,17 +1,15 @@
 <?php include 'header.php'; ?>
 
 	<main role="main">
-		<section class="rsp-hero" style="background-image: url('./img/home/RSP_2017Recipients.jpg')">
-      
-    </section>
+    <?php include 'rsp-hero.php'; ?>
     <section class="home-intro mdev-main-wrapper">
       <h1>Recognizing excellence in<br />Canada's home furnishing's industry</h1>
       <div class="intro-wrapper flex flex-row flex-hor-between flex-vert-center">
         <div class="intro-content">
-          <p>The Retail Sales Professional Awards celebrate the outstanding achievement of sales professionals throughout Canada's hoem furnishings industry.  driven by peer nominations, the RSP awards recognize those sales professionals who achieve success by challenging themselves to go "above and beyond" when delivering customer excellence.</p>
+          <p>The Retail Sales Professional Awards celebrate the outstanding achievement of sales professionals throughout Canada’s home furnishings industry. Driven by peer nominations, the RSP Awards recognize those sales professionals who achieve success by challenging themselves to go "above and beyond" when delivering customer excellence.</p>
         </div>
         <div class="intro-button">
-          <a href="#" class="rsp-btn rsp-btn-purple">Learn More</a>
+          <a href="/about.php" class="rsp-btn rsp-btn-purple">Learn More</a>
         </div>
       </div>
     </section>
@@ -21,10 +19,10 @@
       <div class="nomination-wrapper flex flex-row flex-hor-between flex-vert-center">
         <div class="nomination-content">
           <p>The RSP Awards recognize the sales professionals in Canada's Home Furnishings industry who exceed the standards for excellence in sales achievements and delivering customer excellence.  If someone you manage or work with exemplifies these qualities, they are a great candidate for an RSP Award Nomination.</p>
-          <p class="u-bold rsp-purple">Nominations are open from January 8th 2018 until February 28th, 2018 at midnight EST.</p>
+          <p class="u-bold">Nominations are open from January 8th 2018 until February 28th, 2018 at midnight EST.</p>
         </div>
         <div class="nomination-button">
-          <a href="#" class="rsp-btn rsp-btn-purple">Submit a nomination</a>
+          <a href="/nomination.php" class="rsp-btn rsp-btn-purple">Submit a nomination</a>
         </div>
       </div>
     </section>
@@ -32,9 +30,9 @@
       <div class="mdev-main-wrapper flex flex-row flex-hor-between flex-vert-center">
         <div class="recognition-content">
         <h1>Recognition</h1>
-          <p>The second annual RSP Award recipients will be recognized at the 2018 Canadian Home Furnishings Awards Gala held just prior to the <a href="#">Canadian Furniture Show</a> in Toronto, Ontario</p>
+          <p>The second annual RSP Award recipients will be recognized at the 2018 Canadian Home Furnishings Awards Gala held just prior to the <a href="#" class="u-underline">Canadian Furniture Show</a> in Toronto, Ontario</p>
           <p class="link-wrapper">
-            <a href="#" class="rsp-btn rsp-btn-outline">Learn More</a>
+            <a href="/about.php#chosen" class="rsp-btn rsp-btn-outline">Learn More</a>
           </p>
         </div>
         <div>
@@ -79,7 +77,9 @@
               <p class="u-bold rsp-purple">Presenting Sponsor:</p>
             </div>
             <div class="image">
-              <img src="/rsp-awards/img/sponsors/RSP-sponsor-zucora.jpg" alt="" />
+              <a href="http://www.zucora.com/" target="_blank">
+                <img src="../img/sponsors/RSP-sponsor-zucora.jpg" alt="" />
+              </a>
             </div>
           </div>
           <div class="tile flex flex-row flex-hor-between">
@@ -87,7 +87,9 @@
               <p class="u-bold rsp-purple">Communications Sponsor:</p>
             </div>
             <div class="image">
-              <img src="/rsp-awards/img/sponsors/RSP-sponsor-HGO.jpg" alt="" />
+              <a href="https://www.homegoodsonline.ca/" target="_blank">
+                <img src="../img/sponsors/RSP-sponsor-HGO.jpg" alt="" />
+              </a>
             </div>
           </div>
           <div class="tile flex flex-row flex-hor-between">
@@ -95,7 +97,9 @@
               <p class="u-bold rsp-purple">Event Sponsor:</p>
             </div>
             <div class="image">
-              <img src="/rsp-awards/img/sponsors/RSP-sponsor-CHFA.jpg" alt="" />
+              <a href="http://www.chfaweb.ca/i-about.html" target="_blank">
+                <img src="../img/sponsors/RSP-sponsor-CHFA.jpg" alt="" />
+              </a>
             </div>
           </div>
           <div class="tile flex flex-row flex-hor-between">
@@ -103,14 +107,16 @@
               <p class="u-bold rsp-purple">Show Sponsor:</p>
             </div>
             <div class="image">
-              <img src="/rsp-awards/img/sponsors/RSP-sponsor-CFS.jpg" alt="" />
+              <a href="http://www.canadianfurnitureshow.com/" target="_blank">
+                <img src="../img/sponsors/RSP-sponsor-CFS.jpg" alt="" />
+              </a>
             </div>
           </div>
         </div>
         <div class="sponsor-cta">
           <p>Invest in the future of the furniture industry by sponsoring the RSP awards.  Help highlight and recognize the passionate individuals who exceed daily expectations for sales and relationship building success.  Learn how your generous support can benefit the Retail Sales Professional Awards.</p>
           <p class="button-wrapper">
-            <a href="#" class="rsp-btn rsp-btn-blue">Become a Sponsor</a>
+            <a href="/sponsors.php" class="rsp-btn rsp-btn-blue">Become a Sponsor</a>
           </p>
         </div>
       </div>

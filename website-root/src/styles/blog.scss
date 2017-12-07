@@ -86,12 +86,13 @@ Sidebar
 ********/
 
 .sidebar {
+  margin-top: 20vh;
   width: 450px;
 }
 
 .widget-wrapper {
   padding-left: $rsp-padding-lg;
-  border-left: 2px solid $rsp-purple;
+  border-left: 1px solid #ebe8ee;
   
   h4 {
     font-size: 24px;
@@ -122,13 +123,13 @@ Sidebar
   padding: $rsp-padding-md 0;
   
   li {
-    width: 48px;
+    width: 60px;
   }
   img {
     background: $rsp-purple;
-    padding: 8px;
-    width: 40px;
-    height: 40px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -148,7 +149,7 @@ Main Blog Page
   padding: $rsp-padding-sm 0;
   
   .blog-image {
-    padding: 5px;
+    padding: 10px;
   }
   
   .blog-image-inner {
@@ -160,6 +161,7 @@ Main Blog Page
   
   h2 {
     padding-top: $rsp-padding-sm;
+    line-height: 50px;
   }
 }
 
@@ -177,4 +179,13 @@ Main Blog Page
       padding-top: $rsp-padding-sm;
     }
   }
+}
+
+.rsp-arrow-grey {
+  content: '';
+  background-image: url('/img/icons/icon-arrow-body.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-left: 3vw;
+  height: 5vh;
 }

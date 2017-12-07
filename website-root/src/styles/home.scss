@@ -9,7 +9,7 @@
   }
   
   .intro-button {
-    width: 35%;
+    width: 30%;
   }
 }
 
@@ -28,12 +28,12 @@
   }
   
   .nomination-button {
-    width: 35%;
+    width: 30%;
   }
 }
 
 .recognition {
-  background-image: url('/rsp-awards/img/home/ceremony-bkg.png');
+  background-image: url('/img/home/ceremony-bkg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -99,10 +99,10 @@
     
     span {
       content: '';
-      background-image: url('/rsp-awards/img/icons/icon-arrow-body.svg');
+      background-image: url('/img/icons/icon-arrow-body.svg');
       background-repeat: no-repeat;
       background-position: center center;
-      padding-left: 4vw;
+      padding-left: 3vw;
       height: 5vh;
     }
   }
@@ -117,18 +117,18 @@
   }
   
   .sponsor-inner-wrapper {
-    width: 55%;
+    width: 60%;
     
     .tile {
       height: 150px;
     }
     
     .position {
-      width: 50%;
+      width: 35%;
     }
     
     .image {
-      width: 45%;
+      width: 55%;
     }
     
     .presenting-sponsor {
@@ -142,8 +142,8 @@
   }
   
   .sponsor-cta {
-    border-left: 1px solid $rsp-grey;
-    width: 35%;
+    border-left: 1px solid #ebe8ee;
+    width: 30%;
     padding-left: 40px;
     
     p {

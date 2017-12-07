@@ -16,60 +16,59 @@
         <h5>Mark your 2018 calendar</h5>
         <div class="item-wrapper">
           <div class="item flex flex-row flex-hor-between">
-            <div>
+            <div class="date-desc">
               <p class="u-bold rsp-purple">Nominations open</p>
             </div>
-            <div>
+            <div class="calendar-date">
               <p>January 8th, 2018</p>
             </div>
           </div>
           <div class="item flex flex-row flex-hor-between">
-            <div>
+            <div class="date-desc">
               <p class="u-bold rsp-purple">Close of nominations</p>
             </div>
-            <div>
+            <div class="calendar-date">
               <p>February 28th, 2018</p>
             </div>
           </div>
           <div class="item flex flex-row flex-hor-between">
-            <div>
+            <div class="date-desc">
               <p class="u-bold rsp-purple">Recipient Selection</p>
             </div>
-            <div>
+            <div class="calendar-date">
               <p>February to March</p>
             </div>
           </div>
           <div class="item flex flex-row flex-hor-between">
-            <div>
+            <div class="date-dec">
               <p class="u-bold rsp-purple">Recipients notified</p>
             </div>
-            <div>
+            <div class="calendar-date">
               <p>mid-march, 2018</p>
             </div>
           </div>
           <div class="item flex flex-row flex-hor-between">
-            <div>
+            <div class="date-desc">
               <p class="u-bold rsp-purple">Recipients announced</p>
             </div>
-            <div>
+            <div class="calendar-date">
               <p>end of March, 2018</p>
             </div>
           </div>
           <div class="item flex flex-row flex-hor-between">
-            <div>
+            <div class="date-desc">
               <p class="u-bold rsp-purple">Canadian Furniture Show Gala</p>
             </div>
-            <div>
+            <div class="calendar-date">
               <p>May 25, 2018</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="quote flex flex-column flex-hor-center flex-vert-center">
-      <p>Do you know an inspiring sales professional working in the home furnishings industry who deserves recognition?</p>
-      <div class="decoration">
-      </div>
+    <section class="quote quote-purple">
+      <h2>Do you know an inspiring sales professional working in the home furnishings industry who deserves recognition?</h2>
+      <div class="decoration"></div>
     </section>
     <section class="who mdev-main-wrapper">
       <h1>Who should I nominate?</h1>
@@ -91,7 +90,7 @@
         <h1>Nomination eligibility</h1>
         <div class="wrapper flex flex-row flex-hor-between">
           <div class="eligibility-content">
-          <p class="u-bold rsp-purple">Candidates for nomination must meet the following minimum requirements:</p>
+          <p class=" sub-heading u-bold rsp-purple">Candidates for nomination must meet the following minimum requirements:</p>
             <ul>
               <li>Actively employed as a sales associate or sales manager in the retail sale of home furnishing products (furniture; appliances; electronics; bedding; and related products) in Canada</li>
               <li>Minimum 3 years of direct sales experience with consumers</li>
@@ -101,7 +100,7 @@
             </ul>
           </div>
           <div class="additional">
-            <p class="u-bold rsp-purple">Additional considerations:</p>
+            <p class="sub-heading u-bold rsp-purple">Additional considerations:</p>
             <p>Candidate must be aware of the nomination and be willing to be considered for this award.  If selected, award recipients must attend the Canadian Home Furnishings Awards Gala which will be held on Tuesday, May 25, 2018 in Toronto, Ontario.  Transportation and accomodations will be provided.</p>
           </div>
         </div>
@@ -140,7 +139,7 @@
         </div>
       </div>
     </section>
-    <section class="chosen">
+    <section id="chosen" class="chosen">
       <div class="mdev-main-wrapper">
         <h1>If your nominee is chosen</h1>
         <div class="wrapper flex flex-row flex-hor-between flex-vert-center">
@@ -192,7 +191,7 @@
       </div>
     </section>
     <section class="bottom-quote mdev-main-wrapper flex flex-column flex-hor-between">
-      <p>The RSP Awards are organized and managed by Zucora Inc. in association with <a href="#">Home Goods Online</a>, the <a href="#">Canadian Home Furnishings Alliance</a> and the other industry partners.  Grateful appreciation is extended to the <a href="#">Canadian Furniture Show</a> for showcasing and celebrating the success achieved by RSP Award recipients throughout Canada's home furnishings industry</p>
+      <p>The RSP Awards are organized and managed by <a href="http://www.zucora.com/" target="_blank" class="rsp-blue u-underline">Zucora Inc.</a> in association with <a href="https://www.homegoodsonline.ca/" target="_blank" class="rsp-blue u-underline">Home Goods Online</a>, the <a href="http://www.chfaweb.ca/i-about.html" target="_blank" class="rsp-blue u-underline">Canadian Home Furnishings Alliance</a> and the other industry partners.  Grateful appreciation is extended to the <a href="http://www.canadianfurnitureshow.com/" target="_blank" class="rsp-blue u-underline">Canadian Furniture Show</a> for showcasing and celebrating the success achieved by RSP Award recipients throughout Canada's home furnishings industry</p>
     </section>
     <?php include 'featured-module.php'; ?>
     

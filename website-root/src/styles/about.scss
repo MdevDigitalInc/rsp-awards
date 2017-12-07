@@ -1,21 +1,13 @@
-.rsp-hero {
-  margin-top: $rsp-padding-sm;
-  min-height: 40vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .rsp-intro {
   padding: 10vh 0 8vh;
 }
 
 .intro-content {
-  width: 50%;
+  width: 60%;
 }
 
 .calendars {
-  width: 45%;
+  width: 35%;
   
   .item-wrapper {
     display: flex;
@@ -23,9 +15,12 @@
   }
     
   .item {
+    .date-desc {
+      width: 65%;
+    }
     
-    div {
-      width: 48%;
+    .calendar-date {
+      width: 35%;
     }
   }
 }
@@ -51,8 +46,13 @@
   }
   
   .submission {
-    width: 35%;
+    width: 30%;
+    
+    p {
+      font-size: 24px;
+    }
   }
+
   
   .button-wrapper {
     padding-top: $rsp-padding-md;
@@ -64,6 +64,10 @@
   background-color: #ebe8ee;
   border-top: 1px solid $rsp-grey;
   border-bottom: 1px solid $rsp-grey;
+  
+  .sub-heading {
+    font-size: 24px;
+  }
   
   .eligibility-content {
     width: 60%;
@@ -80,7 +84,7 @@
   }
   
   .additional {
-    width: 35%;
+    width: 30%;
   }
 }
 
@@ -93,7 +97,7 @@
 }
 
 .regions {
-  width: 35%;
+  width: 30%;
   
   h5 {
     padding: 0;
@@ -120,7 +124,7 @@
   }
   
   .chosen-button {
-    width: 35%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,7 +139,7 @@
   padding-top: $rsp-padding-sm;
   
   .member {
-    width: 30%;
+    width: 32%;
   }
   
   .image {
@@ -163,6 +167,7 @@
     background-repeat: no-repeat;
     width: 20%;
     padding: 10% 0;
+    margin-left: $rsp-padding-sm;
   }
   
   .presenting-sponsor-content {

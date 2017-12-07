@@ -31,13 +31,7 @@
     font-weight: 700;
   }
   
-  a {
-    font-size: 26px;
-    font-weight: 300;
-    color: $white;
-    padding: 20px 30px;
-    text-transform: uppercase;
-    border: 2px solid $white;
-    border-radius: 50px;
+  .link-wrapper {
+    margin: $rsp-padding-sm 0;
   }
 }

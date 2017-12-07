@@ -1,0 +1,48 @@
+.rsp-hero {
+  margin-top: $rsp-padding-sm;
+  position: relative;
+}
+
+.rsp-hero-logo {
+  height: 100%;
+  width: 30vw;
+  
+  &:before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    background-color: $rsp-blue;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% -300%, 0 100%);
+  }
+  
+  &:after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    background-color: $rsp-purple;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    clip-path: polygon(0 0, 5% 0%, 100% 450%, 0% 100%);
+  }
+  
+  .hero-logo-wrapper {
+    width: 12vw;
+    position: absolute;
+    bottom: 2%;
+    left: 8%;
+  }
+}
+
+.rsp-hero-image {
+  content: '';
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 35%;
+  padding: 16% 0;
+  width: 185vw;
+  z-index: -20;
+}

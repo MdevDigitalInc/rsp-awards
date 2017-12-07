@@ -25,21 +25,23 @@
         </div>
       </div>
     </section>
-    <section class="thank-you-banner">
-      <p>Thank you to all of our sponsors for their generous support,<br />without you this event would not be possible!</p>
+    <section class="quote quote-purple">
+      <h2>Thank you to all of our sponsors for their generous support, without you, this event would not be possible!</h2>
       <div class="decoration"></div>
     </section>
     <section class="sponsors-list mdev-main-wrapper">
       <div class="sponsors-heading">
         <h1>2018 Sponsors</h1>
       </div>
-      <div class="sponsor-wrapper flex flex-row flex-hor-between">
+      <div class="sponsor-inner-wrapper">
         <div class="tile presenting-sponsor flex flex-row flex-hor-between">
           <div class="position">
-            <h4>Presenting Sponsor:</h4>
+            <p class="u-bold rsp-purple">Presenting Sponsor:</p>
           </div>
           <div class="image">
-            <img src="/img/sponsors/RSP-sponsor-zucora.jpg" alt="" />
+            <a href="http://www.zucora.com/" target="_blank">
+              <img src="/img/sponsors/RSP-sponsor-zucora.jpg" alt="" />
+            </a>
           </div>
           <div class="desc">
             <p>Canada's leading home furnishing protection company.</p>
@@ -47,10 +49,12 @@
         </div>
         <div class="tile flex flex-row flex-hor-between">
           <div class="position">
-            <h4>Communications Sponsor:</h4>
+            <p class="u-bold rsp-purple">Communications Sponsor:</p>
           </div>
           <div class="image">
-            <img src="/img/sponsors/RSP-sponsor-HGO.jpg" alt="" />
+            <a href="https://www.homegoodsonline.ca/" target="_blank">
+              <img src="/img/sponsors/RSP-sponsor-HGO.jpg" alt="" />
+            </a>
           </div>
           <div class="desc">
             <p>The nation's source for home furnishings industry news and information</p>
@@ -58,10 +62,12 @@
         </div>
         <div class="tile flex flex-row flex-hor-between">
           <div class="position">
-            <h4>Event Sponsor:</h4>
+            <p class="u-bold rsp-purple">Event Sponsor:</p>
           </div>
           <div class="image">
-            <img src="/img/sponsors/RSP-sponsor-CHFA.jpg" alt="" />
+            <a href="http://www.chfaweb.ca/i-about.html" target="_blank">
+              <img src="/img/sponsors/RSP-sponsor-CHFA.jpg" alt="" />
+            </a>
           </div>
           <div class="desc">
             <p>Representing home furnishing manufacturers, importers and distributors</p>
@@ -69,10 +75,12 @@
         </div>
         <div class="tile flex flex-row flex-hor-between">
           <div class="position">
-            <h4>Show Sponsor:</h4>
+            <p class="u-bold rsp-purple">Show Sponsor:</p>
           </div>
           <div class="image">
-            <img src="/img/sponsors/RSP-sponsor-CFS.jpg" alt="" />
+            <a href="http://www.canadianfurnitureshow.com/" target="_blank">
+              <img src="/img/sponsors/RSP-sponsor-CFS.jpg" alt="" />
+            </a>
           </div>
           <div class="desc">
             <p>May 26-28, 2017<br />The international Centre, Toronto</p>

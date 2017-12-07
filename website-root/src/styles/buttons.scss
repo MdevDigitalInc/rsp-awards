@@ -11,26 +11,26 @@
 
 .rsp-btn {
   width: auto;
-  padding: 30px 50px;
+  padding: 20px 50px;
   transition: all, .3s;
   font-size: 26px;
   font-weight: 700;
   cursor: pointer;
-  border-radius: 40px;
+  border-radius: 100px;
 }
 
 .rsp-btn-round {
-  border-radius: 40px;
+  border-radius: 100px;
 }
 
 /* Button Colors */
 
 .rsp-btn-purple {
-  color: $white;
+  color: $rsp-body;
   background: $rsp-purple;
 
   &:hover {
-    color: $rsp-body;
+    color: $white;
     background: $rsp-blue;
   }
 }

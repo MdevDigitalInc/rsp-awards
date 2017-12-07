@@ -12,7 +12,7 @@
       <h4 class="u-bold">About the RSP Awards:</h4>
       <p>The annual RSP Awards were created to recognize excellence in Canada's Home Furnishings Industry.  By celebrating outstanding achievement on a peer-recognized basis, the RSP Awards intent to acknowledge the industry professionals who go above and beyond to deliver customer excellence.</p>
       <p class="button-wrapper">
-        <a href="#" class="rsp-btn rsp-btn-blue rsp-btn-round">Submit a nomination</a>
+        <a href="/nomination.php" class="rsp-btn rsp-btn-blue rsp-btn-round">Submit a nomination</a>
       </p>
     </div>
     <div class="footer-social">
@@ -23,7 +23,9 @@
         <li><a href="#"><img src="img/icons/icon-twit-purp.svg" alt="Twitter" /></a></li>
       </ul>
       <div class="footer-logo">
-        <img src="img/logos/RSP2018_RBG_MASTER_white.svg" alt="2018 RSP Awards" />
+        <a href="/index.php">
+          <img src="img/logos/RSP2018_RBG_MASTER_white.svg" alt="2018 RSP Awards" />
+        </a>
       </div>
     </div>
   </div>

@@ -2,59 +2,56 @@
   padding: 100px 0;
   
   .intro-content {
-    width: 55%;
+    width: 60%;
   }
   
   .submission {
-    width: 40%;
+    width: 30%;
+    
+    p {
+      font-size: 24px;
+    }
   }
   
   .button-wrapper {
     padding-top: $rsp-padding-md;
   }
-  
-  .opportunities {
-    width: 50%;
-  }
-}
-
-.thank-you-banner {
-  padding: $rsp-padding-lg 0;
-  text-align: center;
-  background-color: $rsp-purple;
-  
-  p {
-    font-size: 24px;
-    line-height: 36px;
-    padding-bottom: 0;
-  }
 }
 
 .sponsors-list {
-  padding: 80px 0;
+  padding: 100px;
   
   h1 {
     text-align: center;
     padding-bottom: 80px;
   }
   
-  .tile {
-    height: 150px;
-  }
-  
-  .position {
-    width: 20%;
-  }
-  
-  .image {
-    width: 30%;
-  }
-  
-  .desc {
-    width: 20%;
-  }
-  
-  .presenting-sponsor {
-    height: 225px;
+  .sponsor-inner-wrapper {
+    width: 100%;
+    
+    .tile {
+      height: 150px;
+    }
+    
+    .position {
+      width: 35%;
+    }
+    
+    .image {
+      width: 55%;
+    }
+    
+    .desc {
+      width: 30%;
+    }
+    
+    .presenting-sponsor {
+      height: 250px;
+    }
+    
+    img {
+      display: block;
+      text-align: left;
+    }
   }
 }

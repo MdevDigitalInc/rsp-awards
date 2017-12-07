@@ -9,6 +9,7 @@
   font-style: italic;
   line-height: 36px;
   width: 50%;
+  color: $rsp-blue;
   
   .author {
     font-style: normal;
@@ -33,10 +34,14 @@
   padding: 100px 0 80px;
     
   .intro-content {
-    width: 55%;
+    width: 60%;
   }
   .submission {
-    width: 35%;
+    width: 30%;
+    
+    p {
+      font-size: 24px;
+    }
     
     .button-wrapper {
       padding-top: $rsp-padding-md;
@@ -95,4 +100,13 @@
   .image {
     width: 45%;
   }
+}
+
+.rsp-arrow-blue {
+  content: '';
+  background-image: url('/img/icons/icon-arrow-blue.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-left: 3vw;
+  height: 5vh;
 }
