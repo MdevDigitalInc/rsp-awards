@@ -19,12 +19,12 @@
         </div>
       </div>
       <div class="blog-image">
-        <div class="blog-image-inner" style="background-image: url('/rsp-awards/img/home/RSP_2017Recipients.jpg')">
+        <div class="blog-image-inner" style="background-image: url('/img/home/RSP_2017Recipients.jpg')">
         </div>
       </div>
       <div class="blog-content">
         <p>EARLIER THIS YEAR AND IN COLLABORATION with <a href="#">Zucora Inc.</a>, Home Goods Online launched a new awards program whose goal was to seek out this country's best retail sales people and sales managers working in Canadian furniture, mattress, and major appliance stores.  The quality of the response we received from retailers across the country was staggering and truly encouraging.  The amount of raw talent at work on retail floors from Victoria to St. John's has to be seen to believed.</p>
-        <p>When we publishes out invitation for retailers to nomionate the best members of their team for this award, BRad Geddes, president and chief executive officer of Zucora, the London-based added value resource and Presenting Sponsor of the Retail Sales Professional Awards (RSPA), pointed out they really do control the industry's fate.</p>
+        <p>When we published our invitation for retailers to nominate the best members of their team for this award, Brad Geddes, president and chief executive officer of Zucora, the London-based added value resource and Presenting Sponsor of the Re-tail Sales Professional Awards (RSPA), pointed out they really do control the industry’s fate.</p>
         
         <h1>Heading 1</h1>
         <h2>Heading 2</h2>

@@ -3,10 +3,10 @@
 	<main role="main">
     <?php include 'rsp-hero.php'; ?>
     <section class="home-intro mdev-main-wrapper">
-      <h1>Recognizing excellence in<br />Canada's home furnishing's industry</h1>
+      <h1>Recognizing excellence in<br />Canada's home furnishings industry</h1>
       <div class="intro-wrapper flex flex-row flex-hor-between flex-vert-center">
         <div class="intro-content">
-          <p>The Retail Sales Professional Awards celebrate the outstanding achievement of sales professionals throughout Canada’s home furnishings industry. Driven by peer nominations, the RSP Awards recognize those sales professionals who achieve success by challenging themselves to go "above and beyond" when delivering customer excellence.</p>
+          <p>The Retail Sales Professional Awards celebrate the outstanding achievement of sales professionals throughout Canada’s home furnishings industry. Driven by peer nominations, the RSP Awards recognize those sales professionals who achieve success by challenging themselves to go "above and beyond" when delivering customer excellence. </p>
         </div>
         <div class="intro-button">
           <a href="/about.php" class="rsp-btn rsp-btn-purple">Learn More</a>
@@ -18,7 +18,7 @@
       <h1>Call for Nominations</h1>
       <div class="nomination-wrapper flex flex-row flex-hor-between flex-vert-center">
         <div class="nomination-content">
-          <p>The RSP Awards recognize the sales professionals in Canada's Home Furnishings industry who exceed the standards for excellence in sales achievements and delivering customer excellence.  If someone you manage or work with exemplifies these qualities, they are a great candidate for an RSP Award Nomination.</p>
+          <p>The RSP Awards recognize the sales professionals in Canada's Home Furnishings Industry who exceed the standards for excellence in sales achievements and delivering customer excellence. If someone you manage or work with exemplifies these qualities, they are a great candidate for an RSP Award Nomination.</p>
           <p class="u-bold">Nominations are open from January 8th 2018 until February 28th, 2018 at midnight EST.</p>
         </div>
         <div class="nomination-button">
@@ -45,7 +45,7 @@
       <div class="news-wrapper flex flex-row flex-hor-between">
         <div class="blog-tile">
           <div class="blog-image">
-            <div class="blog-image-inner" style="background-image: url('/rsp-awards/img/pastrecipients/2017/RSP-2017-NationalRecipient.png')"></div>
+            <div class="blog-image-inner" style="background-image: url('/img/pastrecipients/2017/RSP-2017-NationalRecipient.png')"></div>
           </div>
           <h5>News Article Title - Comes from Blog, Can be up to 2 Lines Long</h5>
           <a href="#" class="read-more">Read More<span></span></a>
@@ -78,7 +78,7 @@
             </div>
             <div class="image">
               <a href="http://www.zucora.com/" target="_blank">
-                <img src="/rsp-awards/img/sponsors/RSP-sponsor-zucora.jpg" alt="" />
+                <img src="/img/sponsors/RSP-sponsor-zucora.jpg" alt="" />
               </a>
             </div>
           </div>
@@ -88,7 +88,7 @@
             </div>
             <div class="image">
               <a href="https://www.homegoodsonline.ca/" target="_blank">
-                <img src="/rsp-awards/img/sponsors/RSP-sponsor-HGO.jpg" alt="" />
+                <img src="/img/sponsors/RSP-sponsor-HGO.jpg" alt="" />
               </a>
             </div>
           </div>
@@ -98,7 +98,7 @@
             </div>
             <div class="image">
               <a href="http://www.chfaweb.ca/i-about.html" target="_blank">
-                <img src="/rsp-awards/img/sponsors/RSP-sponsor-CHFA.jpg" alt="" />
+                <img src="/img/sponsors/RSP-sponsor-CHFA.jpg" alt="" />
               </a>
             </div>
           </div>
@@ -108,7 +108,7 @@
             </div>
             <div class="image">
               <a href="http://www.canadianfurnitureshow.com/" target="_blank">
-                <img src="/rsp-awards/img/sponsors/RSP-sponsor-CFS.jpg" alt="" />
+                <img src="/img/sponsors/RSP-sponsor-CFS.jpg" alt="" />
               </a>
             </div>
           </div>

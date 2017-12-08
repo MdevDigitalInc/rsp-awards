@@ -11,14 +11,14 @@
     <div class="widget social-widget">
       <h4>Join the Conversation</h4>
       <ul class="social flex flex-row">
-        <li><a href="#"><img src="/rsp-awards/img/icons/icon-linked-white.svg"</a></li>
-        <li><a href="#"><img src="/rsp-awards/img/icons/icon-fb-white.svg" alt="" /></a></li>
-        <li><a href="#"><img src="/rsp-awards/img/icons/icon-twit-white.svg" alt="" /></a></li>
+        <li><a href="#"><img src="/img/icons/icon-linked-white.svg"</a></li>
+        <li><a href="#"><img src="/img/icons/icon-fb-white.svg" alt="" /></a></li>
+        <li><a href="#"><img src="/img/icons/icon-twit-white.svg" alt="" /></a></li>
       </ul>
     </div>
     <div cass="widget sponsorship-widget">
       <h4>Sponsorship Opportunities</h4>
-      <p>As a participant in the home furnishings industry, you're invited to have your company recognized as a sponsor of the RSP Awards.  Contact us for more details</p>
+      <p>As a participant in the home furnishings industry, you're invited to have your company recognized as a sponsor of the RSP Awards. Contact us for more details.</p>
     </div>
     <div class="widget archive-widget">
       <h4>Archive</h4>

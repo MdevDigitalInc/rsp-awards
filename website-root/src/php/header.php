@@ -64,9 +64,9 @@
         <div class="social">
           <ul class=" flex flex-row flex-hor-between flex-vert-center">
             <li class="u-bold u-uppercase rsp-blue">Join the Conversation</li>
-            <li><a href="#"><img src="img/icons/icon-linked-white.svg"</a></li>
-          <li><a href="#"><img src="img/icons/icon-fb-white.svg" alt="" /></a></li>
-          <li><a href="#"><img src="img/icons/icon-twit-white.svg" alt="" /></a></li>
+            <li><a href="#"><img src="/img/icons/icon-linked-white.svg"</a></li>
+          <li><a href="#"><img src="/img/icons/icon-fb-white.svg" alt="" /></a></li>
+          <li><a href="#"><img src="/img/icons/icon-twit-white.svg" alt="" /></a></li>
           </ul>
         </div>
         <div class="rsp-timer flex flex-row flex-vert-center flex-hor-end">
@@ -114,11 +114,11 @@ var end = new Date('02/28/2018 12:00 AM');
           </div>
           <div class="nav">
             <ul class="flex flex-row flex-hor-between flex-vert-center">
-              <li><a href="/rsp-awards/about.php">About</a></li>
-              <li><a href="/rsp-awards/past-recipients.php">Previous Recipients</a></li>
-              <li><a href="/rsp-awards/sponsors.php">Sponsors</a></li>
-              <li><a href="/rsp-awards/blog.php">News</a></li>
-              <li><a href="/rsp-awards/nominations.php">Nominations</a></li>
+              <li><a href="/about.php">About</a></li>
+              <li><a href="/past-recipients.php">Previous Recipients</a></li>
+              <li><a href="/sponsors.php">Sponsors</a></li>
+              <li><a href="/blog.php">News</a></li>
+              <li><a href="/nominations.php">Nominations</a></li>
             </ul>
         </div>
       </div>

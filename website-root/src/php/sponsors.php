@@ -8,7 +8,7 @@
       <h1>Inspire excellence</h1>
       <div class="wrapper flex flex-row flex-hor-between">
         <div class="intro-content">
-          <p>Do you want to inspire excellence in home furnishing sales?  We invite you to join other industry leaders by recognizing the importance and value of exceptional sales performance by becoming an RSP Sponsor.</p>
+          <p>Do you want to inspire excellence in home furnishing sales? We invite you to join other industry leaders by recognizing the importance and value of exceptional sales performance by becoming an RSP Awards sponsor.</p>
           <div class="opportunities">
             <h4>Sponsorship Opportunities</h4>
             <p>As a participant in the home furnishings industry, you're invited to have your company recognized as a sponsor of the RSP Awards.  <a href="#" class="rsp-blue">Contact us</a> for more details</p>
@@ -38,7 +38,7 @@
           </div>
           <div class="image">
             <a href="http://www.zucora.com/" target="_blank">
-              <img src="/rsp-awards/img/sponsors/RSP-sponsor-zucora.jpg" alt="" />
+              <img src="/img/sponsors/RSP-sponsor-zucora.jpg" alt="" />
             </a>
           </div>
           <div class="desc">
@@ -51,7 +51,7 @@
           </div>
           <div class="image">
             <a href="https://www.homegoodsonline.ca/" target="_blank">
-              <img src="/rsp-awards/img/sponsors/RSP-sponsor-HGO.jpg" alt="" />
+              <img src="/img/sponsors/RSP-sponsor-HGO.jpg" alt="" />
             </a>
           </div>
           <div class="desc">
@@ -64,7 +64,7 @@
           </div>
           <div class="image">
             <a href="http://www.chfaweb.ca/i-about.html" target="_blank">
-              <img src="/rsp-awards/img/sponsors/RSP-sponsor-CHFA.jpg" alt="" />
+              <img src="/img/sponsors/RSP-sponsor-CHFA.jpg" alt="" />
             </a>
           </div>
           <div class="desc">
@@ -77,7 +77,7 @@
           </div>
           <div class="image">
             <a href="http://www.canadianfurnitureshow.com/" target="_blank">
-              <img src="/rsp-awards/img/sponsors/RSP-sponsor-CFS.jpg" alt="" />
+              <img src="/img/sponsors/RSP-sponsor-CFS.jpg" alt="" />
             </a>
           </div>
           <div class="desc">

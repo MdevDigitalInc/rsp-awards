@@ -10,7 +10,7 @@
     </div>
     <div class="footer-about">
       <h4 class="u-bold">About the RSP Awards:</h4>
-      <p>The annual RSP Awards were created to recognize excellence in Canada's Home Furnishings Industry.  By celebrating outstanding achievement on a peer-recognized basis, the RSP Awards intent to acknowledge the industry professionals who go above and beyond to deliver customer excellence.</p>
+      <p>The annual RSP Awards were created to recognize excellence in Canada's Home Furnishings Industry. By celebrating outstanding achievement on a peer-recognized basis, the RSP Awards intend to acknowledge the industry professionals who go above and beyond to deliver customer excellence. </p>
       <p class="button-wrapper">
         <a href="/nomination.php" class="rsp-btn rsp-btn-blue rsp-btn-round">Submit a nomination</a>
       </p>
@@ -24,7 +24,7 @@
       </ul>
       <div class="footer-logo">
         <a href="/index.php">
-          <img src="/rsp-awards/img/logos/RSP2018_RBG_MASTER_white.svg" alt="2018 RSP Awards" />
+          <img src="/img/logos/RSP2018_RBG_MASTER_white.svg" alt="2018 RSP Awards" />
         </a>
       </div>
     </div>
