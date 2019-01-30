@@ -1,0 +1,60 @@
+footer {
+  background-color: $rsp-purple;
+  padding: 70px 0;
+  
+  .mdev-main-wrapper {
+
+    p,
+    a {
+      color: $white;
+    }
+    
+    .footer-contact {
+      width: 20%;
+    }
+    
+    .footer-about {
+      width: 40%;
+    }
+    
+    .footer-social {
+      width: 25%;
+    }
+    
+    h4 {
+      color: $white;
+      padding-bottom: 10px;
+    }
+    
+    .address {
+      padding-top: $rsp-padding-md;
+    }
+    
+    .email-text,
+    .address-text {
+      font-size: 22px;
+      line-height: 26px;
+    }
+    
+    .button-wrapper {
+      padding-top: $rsp-padding-lg;
+    }
+  }
+  .social {
+    padding-bottom: $rsp-padding-md;
+    
+    li {
+      width: 60px;
+    }
+    img {
+      background: $white;
+      padding: 10px;
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+  .footer-logo {
+    width: 50%;
+  }
+}

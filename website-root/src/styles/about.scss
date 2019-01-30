@@ -1,0 +1,197 @@
+.rsp-intro {
+  padding: 10vh 0 8vh;
+}
+
+.intro-content {
+  width: 60%;
+}
+
+.calendars {
+  width: 35%;
+  
+  .item-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+    
+  .item {
+    .date-desc {
+      width: 65%;
+    }
+    
+    .calendar-date {
+      width: 35%;
+    }
+  }
+}
+
+.quote {
+  background-color: $rsp-purple;
+  padding: 80px 0;
+  
+  p {
+    font-style: italic;
+    font-size: 24px;
+    width: 45%;
+    line-height: 36px;
+    text-align: center;
+  }
+}
+
+.who {
+  padding: 100px 0;
+  
+  .who-content {
+    width: 60%;
+  }
+  
+  .submission {
+    width: 30%;
+    
+    p {
+      font-size: 24px;
+    }
+  }
+
+  
+  .button-wrapper {
+    padding-top: $rsp-padding-md;
+  }
+}
+
+.eligibility {
+  padding: 100px 0 80px;
+  background-color: #ebe8ee;
+  border-top: 1px solid $rsp-grey;
+  border-bottom: 1px solid $rsp-grey;
+  
+  .sub-heading {
+    font-size: 24px;
+  }
+  
+  .eligibility-content {
+    width: 60%;
+    
+    ul {
+      margin-left: 20px;
+    }
+    
+    li {
+      list-style-type: disc;
+      font-size: 18px;
+      line-height: 32px;
+    }
+  }
+  
+  .additional {
+    width: 30%;
+  }
+}
+
+.regional {
+  padding: 100px 0 80px;
+}
+
+.regional-content {
+  width: 60%;
+}
+
+.regions {
+  width: 30%;
+  
+  h5 {
+    padding: 0;
+  }
+  
+  ul {
+    padding: 10px 0 $rsp-padding-sm;
+  }
+  
+  li {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+.chosen {
+  padding: 100px 0 80px;
+  background-color: #ebe8ee;
+  border-top: 1px solid $rsp-grey;
+  border-bottom: 1px solid $rsp-grey;
+  
+  .chosen-content {
+    width: 60%;
+  }
+  
+  .chosen-button {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.panel {
+  padding: 100px 0 80px;
+}
+
+.panel-wrapper {
+  padding-top: $rsp-padding-sm;
+  
+  .member {
+    width: 32%;
+  }
+  
+  .image {
+    padding: 50% 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  h3 {
+    padding-top: $rsp-padding-md;
+    padding-bottom: 10px;
+  }
+  
+  .position {
+    font-style: italic;
+  }
+}
+
+.presenting-wrapper {
+  
+  .image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 20%;
+    padding: 10% 0;
+    margin-left: $rsp-padding-sm;
+  }
+  
+  .presenting-sponsor-content {
+    padding-top: $rsp-padding-sm;
+    width: 75%;
+  }
+  
+  .signature-text {
+    font-size: 1.2vw;
+    
+    span {
+      font-size: 1.7vw;
+    }
+  }
+}
+
+.bottom-quote {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+  p {
+    color: $rsp-purple;
+  }
+}

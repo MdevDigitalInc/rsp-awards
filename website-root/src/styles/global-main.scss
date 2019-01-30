@@ -1,0 +1,82 @@
+/*-----------------------------------------]
+
+	[Global Main Stylesheet] - V 0.0.2
+	Created On: Dec - 28 - 2016 - Ubuntu 16.04
+  Updated On: Oct - 26 - 2017 - Ubuntu 17.10
+
+	Desc: Main stylesheet comprises the
+	imports necessary to style the website
+	and avoids repetition inside the components
+
+----------------------------------------]*/
+
+/*----
+  MDEV Sass Boilerplate
+-----*/
+@import '~@moreira-development/sass-boilerplate';
+
+/*----
+	Global Variables
+-----*/
+@import './variables.scss';
+
+/*----
+	Global Typography
+-----*/
+@import './typography.scss';
+
+/*----
+ 	Utilities
+-----*/
+@import './utilities.scss';
+
+/*---
+  Icons
+-----*/
+@import './icons.scss';
+
+/*---
+  Forms
+-----*/
+@import './forms.scss';
+
+/*---
+  WordPress Core
+-----*/
+@import './wp_core.scss';
+
+
+/*---
+  Scaffold
+-----*/
+@import './scaffolding.scss';
+
+/*----
+  Buttons
+-----*/
+@import './buttons.scss';
+
+/*----
+  Print
+-----*/
+@import './print.scss';
+
+/*----
+  Flex Classes
+-----*/
+@import './flex.scss';
+
+/*----
+  Modules
+-----*/
+@import './footer.scss';
+@import './header.scss';
+@import './blog.scss';
+@import './featured-module.scss';
+@import './about.scss';
+@import './mail-subscribe.scss';
+@import './sponsors.scss';
+@import './recipients.scss';
+@import './home.scss';
+@import './quote-styles.scss';
+@import './rsp-hero.scss';

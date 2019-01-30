@@ -1,0 +1,57 @@
+.about-intro {
+  padding: 100px 0;
+  
+  .intro-content {
+    width: 60%;
+  }
+  
+  .submission {
+    width: 30%;
+    
+    p {
+      font-size: 24px;
+    }
+  }
+  
+  .button-wrapper {
+    padding-top: $rsp-padding-md;
+  }
+}
+
+.sponsors-list {
+  padding: 100px;
+  
+  h1 {
+    text-align: center;
+    padding-bottom: 80px;
+  }
+  
+  .sponsor-inner-wrapper {
+    width: 100%;
+    
+    .tile {
+      height: 150px;
+    }
+    
+    .position {
+      width: 35%;
+    }
+    
+    .image {
+      width: 55%;
+    }
+    
+    .desc {
+      width: 30%;
+    }
+    
+    .presenting-sponsor {
+      height: 250px;
+    }
+    
+    img {
+      display: block;
+      text-align: left;
+    }
+  }
+}

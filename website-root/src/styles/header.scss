@@ -1,0 +1,96 @@
+.pre-header {
+  padding: $rsp-padding-sm 0;
+  
+  .social {
+    
+    li:first-child {
+      width: auto;
+      margin-right: 15px;
+      font-size: 16px;
+    }
+    
+    li {
+      width: 60px;
+    }
+    
+    img {
+      width: 50px;
+      height: 50px;
+      padding: 10px;
+      background: $rsp-purple;
+    }
+  }
+  
+  .rsp-timer {
+    width: 50%;
+    
+    p {
+      padding-bottom: 0;
+      font-size: 16px;
+    }
+  }
+  
+  .countdown-wrapper {
+    
+    .rsp-counter {
+      text-align: center;
+      font-size: 45px;
+      color: $rsp-purple;
+      padding-left: $rsp-padding-sm;
+      line-height: 28px;
+      position: relative;
+      
+      &:after {
+        content: ':';
+        position: absolute;
+        top: -.1vh;
+        right: -25%;
+      }
+      
+      &:last-child:after {
+        content: '';
+      }
+    }
+    
+    span {
+      font-size: 16px;
+      line-height: 20px;
+      color: $rsp-blue;
+    }
+  }
+}
+
+.main-header {
+  border-top: 1px solid #ebe8ee;
+  border-bottom: 1px solid #ebe8ee;
+  position: relative;
+  
+  .mdev-main-wrapper {
+    height: 100px;
+  }
+}
+
+.logo {
+  margin-left: 13.5%;
+}
+
+.nav {
+  
+  a {
+    font-size: 24px;
+    color: $rsp-grey;
+    text-transform: uppercase;
+    padding: 20px 30px;
+  }
+  
+  li:last-child {
+    height: 100%;
+  
+    a {
+      background: $rsp-purple;
+      color: $white;
+      display: inline-block;
+      height: 100%;
+    }
+  }
+}

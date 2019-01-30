@@ -1,0 +1,162 @@
+.home-intro {
+  padding: 100px 0 80px;
+}
+
+.intro-wrapper {
+  
+  .intro-content {
+    width: 60%;
+  }
+  
+  .intro-button {
+    width: 30%;
+  }
+}
+
+.nomination-call {
+  padding: 100px 0 80px;
+  
+  .nomination-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nomination-content {
+    width: 60%;
+  }
+  
+  .nomination-button {
+    width: 30%;
+  }
+}
+
+.recognition {
+  background-image: url('/img/home/ceremony-bkg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 35px 0;
+  color: $white;
+  
+  .recognition-content {
+    width: 45%;
+    
+    h1 {
+      color: $white;
+    }
+    
+    p {
+      color: $white;
+    }
+    
+    .link-wrapper {
+      padding-top: $rsp-padding-md;
+    }
+  }
+  
+  .image {
+    width: 55%;
+  }
+}
+
+.recent-news {
+  padding: 100px 0 80px;
+  
+  h1 {
+    text-align: center;
+    padding-bottom: 0;
+  }
+  
+  .news-wrapper {
+    padding-top: 80px;
+  }
+  
+  .blog-tile {
+    width: 30%;
+  }
+  
+  .blog-image {
+    height: 400px;
+    padding: 5px;
+  }
+  
+  .blog-image-inner {
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  h5 {
+    padding: $rsp-padding-sm 0;
+  }
+  
+  .read-more {
+    text-transform: uppercase;
+    font-size: 18px;
+    
+    span {
+      content: '';
+      background-image: url('/img/icons/icon-arrow-body.svg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      padding-left: 3vw;
+      height: 5vh;
+    }
+  }
+}
+
+.sponsors {
+  padding: 100px;
+  
+  h1 {
+    text-align: center;
+    padding-bottom: 80px;
+  }
+  
+  .sponsor-inner-wrapper {
+    width: 60%;
+    
+    .tile {
+      height: 150px;
+    }
+    
+    .position {
+      width: 35%;
+    }
+    
+    .image {
+      width: 55%;
+    }
+    
+    .presenting-sponsor {
+      height: 250px;
+    }
+    
+    img {
+      display: block;
+      text-align: left;
+    }
+  }
+  
+  .sponsor-cta {
+    border-left: 1px solid #ebe8ee;
+    width: 30%;
+    padding-left: 40px;
+    
+    p {
+      padding-top: $rsp-padding-sm;
+      font-size: 24px;
+      line-height: 34px;
+      color: $rsp-purple;
+      font-style: italic;
+    }
+    
+    .button-wrapper {
+      font-style: normal;
+      padding-top: $rsp-padding-lg;
+    }
+  }
+}

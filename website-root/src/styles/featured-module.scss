@@ -1,0 +1,37 @@
+.featured {
+  padding: $rsp-padding-lg 0;
+  background-color: #ebe8ee;
+  border-top: 1px solid $rsp-body;
+  border-bottom: 1px solid $rsp-body;
+  
+  .mdev-main-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .featured-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 32%;
+    min-height: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: $rsp-padding-sm;
+  }
+  
+  p {
+    font-size: 45px;
+    line-height: 48px;
+    color: $white;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .link-wrapper {
+    margin: $rsp-padding-sm 0;
+  }
+}
